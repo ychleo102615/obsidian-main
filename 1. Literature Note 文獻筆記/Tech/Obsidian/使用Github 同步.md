@@ -15,3 +15,4 @@ link: https://blog.poychang.net/obsidian-sync-between-desktop-and-mobile-with-gi
 踩到幾個坑：
 1. iSH mount外部資料夾的時候，要先建好該資料夾
 2. git personal access token 要注意有寫入權限（在content那裡要打勾）
+3. 後來在iPad上用也卡了一下，處理merge衝突。這個同步方式恐怕一次最好只用一個裝置來編輯吧。
