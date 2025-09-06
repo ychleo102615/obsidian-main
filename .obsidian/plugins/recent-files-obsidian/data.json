@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "First Dev Note",
+      "path": "7. Projects/2025/dev-notes/First Dev Note.md"
+    },
+    {
       "basename": "2025-09-06",
       "path": "2. Journal/2025/09/2025-09-06.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "2025-07-15",
       "path": "2. Journal/2025/07/2025-07-15.md"
-    },
-    {
-      "basename": "2025-07-10",
-      "path": "2. Journal/2025/07/2025-07-10.md"
     }
   ],
   "omittedPaths": [
