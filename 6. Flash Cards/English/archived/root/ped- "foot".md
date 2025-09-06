@@ -1,0 +1,1 @@
+from root [*ped-](https://www.etymonline.com/word/*ped- "Etymology, meaning and definition of *ped-") "foot"

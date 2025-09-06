@@ -1,0 +1,2 @@
+https://www.etymonline.com/word/*leg-#etymonline_v_52572
+Proto-Indo-European root meaning "to collect, gather," with derivatives meaning "to speak" on the notion of "to gather words, to pick out words."

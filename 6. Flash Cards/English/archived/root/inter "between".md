@@ -1,0 +1,1 @@
+inter "between" (see [inter-](https://www.etymonline.com/word/inter-?ref=etymonline_crossreference "Etymology, meaning and definition of inter-"))

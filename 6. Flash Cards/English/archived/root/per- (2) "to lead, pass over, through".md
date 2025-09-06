@@ -1,0 +1,1 @@
+ [per-](https://www.etymonline.com/word/*per-?ref=etymonline_crossreference#etymonline_v_52579 "Etymology, meaning and definition of *per-") (2) "to lead, pass over, forward, through"

@@ -1,0 +1,1 @@
+ [deik-](https://www.etymonline.com/word/*deik-?ref=etymonline_crossreference "Etymology, meaning and definition of *deik-") "to show," also "pronounce solemnly"

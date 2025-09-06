@@ -1,0 +1,1 @@
+ [*tag-](https://www.etymonline.com/word/*tag- "Etymology, meaning and definition of *tag-") "to touch, handle."

@@ -1,0 +1,15 @@
+# OS / 編輯器雜項
+.DS_Store
+Thumbs.db
+
+# Obsidian 可忽略
+.obsidian/workspace.json
+.obsidian/graph.json
+
+# 外掛：忽略外掛本體與快取，但保留設定檔 data.json
+.obsidian/plugins/*
+!.obsidian/plugins/*/
+!.obsidian/plugins/*/data.json
+
+# 其他大件（視情況開啟）
+.trash/

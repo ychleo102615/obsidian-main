@@ -1,0 +1,1 @@
+ [reg-](https://www.etymonline.com/word/*reg- "Etymology, meaning and definition of *reg-") "move in a straight line",  with derivatives meaning "to direct in a straight line," thus "to lead, rule."

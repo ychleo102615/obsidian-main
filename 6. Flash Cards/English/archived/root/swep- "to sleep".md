@@ -1,0 +1,1 @@
+ (from PIE root [*swep-](https://www.etymonline.com/word/*swep- "Etymology, meaning and definition of *swep-") "to sleep")

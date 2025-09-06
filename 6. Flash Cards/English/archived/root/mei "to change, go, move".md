@@ -1,0 +1,1 @@
+ [*mei-](https://www.etymonline.com/word/*mei-#etymonline_v_52689 "Etymology, meaning and definition of *mei-") (1) "to change, go, move."

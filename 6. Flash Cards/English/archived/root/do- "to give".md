@@ -1,0 +1,1 @@
+[do-](https://www.etymonline.com/word/*do-?ref=etymonline_crossreference "Etymology, meaning and definition of *do-") "to give"

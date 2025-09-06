@@ -1,0 +1,1 @@
+[*teks-](https://www.etymonline.com/word/*teks- "Etymology, meaning and definition of *teks-") "to weave," also "to fabricate"

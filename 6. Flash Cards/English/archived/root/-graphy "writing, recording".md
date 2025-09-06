@@ -1,0 +1,2 @@
+"process of writing or recording" or "a writing, recording, or description"
+-graphia (see [-graphy](https://www.etymonline.com/word/-graphy?ref=etymonline_crossreference "Etymology, meaning and definition of -graphy")).

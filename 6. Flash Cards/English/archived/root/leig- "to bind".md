@@ -1,0 +1,1 @@
+ligare "to bind, bind one thing to another, tie" (from PIE root [leig-](https://www.etymonline.com/word/*leig-?ref=etymonline_crossreference "Etymology, meaning and definition of *leig-") "to tie, bind")

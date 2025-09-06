@@ -1,0 +1,1 @@
+https://www.etymonline.com/word/*al-#etymonline_v_52550

@@ -1,0 +1,1 @@
+à "to" (see [ad-](https://www.etymonline.com/word/ad-?ref=etymonline_crossreference "Etymology, meaning and definition of ad-"))

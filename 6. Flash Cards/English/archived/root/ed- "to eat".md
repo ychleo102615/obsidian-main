@@ -1,0 +1,1 @@
+root [*ed-](https://www.etymonline.com/word/*ed- "Etymology, meaning and definition of *ed-") "to eat"

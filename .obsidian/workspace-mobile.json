@@ -1,0 +1,248 @@
+{
+  "main": {
+    "id": "9c611d33d268138f",
+    "type": "split",
+    "children": [
+      {
+        "id": "05ba0a77910d3bb2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a5bcea2fc059111b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "2. Journal/2025/08/2025-08-16.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "2025-08-16"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "fb01efdfef3464ca",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "3e70d922cfa7ea67",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical",
+            "autoReveal": false
+          },
+          "icon": "lucide-folder-closed",
+          "title": "檔案瀏覽器"
+        }
+      },
+      {
+        "id": "53b432800eb42ca8",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "權宜",
+            "matchingCase": true,
+            "explainSearch": false,
+            "collapseAll": true,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          },
+          "icon": "lucide-search",
+          "title": "搜尋"
+        }
+      },
+      {
+        "id": "446accaf0e9f0c5e",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          },
+          "icon": "lucide-tags",
+          "title": "標籤"
+        }
+      },
+      {
+        "id": "5cc78f7b64604a6c",
+        "type": "leaf",
+        "state": {
+          "type": "starred",
+          "state": {},
+          "icon": "lucide-file",
+          "title": "外掛程式已不復活躍"
+        }
+      },
+      {
+        "id": "854a65a81b39ea2e",
+        "type": "leaf",
+        "state": {
+          "type": "recent-files",
+          "state": {},
+          "icon": "clock",
+          "title": "Recent Files"
+        }
+      },
+      {
+        "id": "f7678415c8da9594",
+        "type": "leaf",
+        "state": {
+          "type": "bookmarks",
+          "state": {},
+          "icon": "lucide-bookmark",
+          "title": "書籤"
+        }
+      },
+      {
+        "id": "253b4c7deac43c44",
+        "type": "leaf",
+        "state": {
+          "type": "all-properties",
+          "state": {
+            "sortOrder": "frequency",
+            "showSearch": false,
+            "searchQuery": ""
+          },
+          "icon": "lucide-archive",
+          "title": "所有屬性"
+        }
+      }
+    ],
+    "currentTab": 1
+  },
+  "right": {
+    "id": "48b10c227cf4cb6e",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "596a7b92644a1ad3",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "1. Literature Note 文獻筆記/Book/2025/1. Designing Data-Intensive Applications  設計資料密集型應用/測驗/7. 為什麼許多現代資料庫會使用多版本並行控制（MVCC）來實現交易隔離？它是如何讓讀取與寫入可以同時發生而不互相阻塞的？.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-coming-in",
+          "title": "反向連結"
+        }
+      },
+      {
+        "id": "e2af132310026a30",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "2. Journal/2025/03/2025-03-13.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          },
+          "icon": "links-going-out",
+          "title": "對外連結"
+        }
+      },
+      {
+        "id": "3f00a28e57c71fd1",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "2. Journal/2025/03/2025-03-13.md"
+          },
+          "icon": "lucide-list",
+          "title": "大綱"
+        }
+      },
+      {
+        "id": "7ef3e421a3c714f3",
+        "type": "leaf",
+        "state": {
+          "type": "calendar",
+          "state": {},
+          "icon": "calendar-with-checkmark",
+          "title": "Calendar"
+        }
+      },
+      {
+        "id": "3889af35228e911b",
+        "type": "leaf",
+        "state": {
+          "type": "review-queue-list-view",
+          "state": {},
+          "icon": "lucide-file",
+          "title": "外掛程式已不復活躍"
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:開啟快速切換": false,
+      "graph:查看關聯圖": false,
+      "canvas:建立新畫布": false,
+      "daily-notes:開啟今天的每日筆記": false,
+      "templates:插入模板": false,
+      "command-palette:開啟命令面板": false,
+      "random-note:開始漫遊筆記": false,
+      "templater-obsidian:Templater": false,
+      "periodic-notes:Open today": false
+    }
+  },
+  "active": "a5bcea2fc059111b",
+  "lastOpenFiles": [
+    "6. Flash Cards/English/archived/root/-ious, -ient 比較.md",
+    "2. Journal/2025/08/2025-08-16.md",
+    "2. Journal/2025/08/2025-08-15.md",
+    "1. Literature Note 文獻筆記/Book/2025/1. Designing Data-Intensive Applications  設計資料密集型應用/測驗/7. 為什麼許多現代資料庫會使用多版本並行控制（MVCC）來實現交易隔離？它是如何讓讀取與寫入可以同時發生而不互相阻塞的？.md",
+    "1. Literature Note 文獻筆記/Tech/Language/Java/待辦清單server/1. 整理環境.md",
+    "1. Literature Note 文獻筆記/Tech/Language/Java/待辦清單server/0) 目標與範圍.md",
+    "1. Literature Note 文獻筆記/Tech/Language/Java/待辦清單server",
+    "1. Literature Note 文獻筆記/Book/2025/1. Designing Data-Intensive Applications  設計資料密集型應用/測驗/6. 在分散式系統的錯誤處理中，什麼是「拜占庭錯誤（Byzantine Fault）」？與一般的節點失效（crash fault）相比，它有什麼特別的挑戰？.md",
+    "2. Journal/2025/07/2025-07-17.md",
+    "1. Literature Note 文獻筆記/Book/2025/1. Designing Data-Intensive Applications  設計資料密集型應用/測驗/5. 在資料分區（Partitioning）系統中，請解釋什麼是「再分區（Repartitioning）」？為什麼這個動作在系統擴展時可能會非常昂貴？.md",
+    "1. Literature Note 文獻筆記/Book/2025/1. Designing Data-Intensive Applications  設計資料密集型應用/測驗/4. 為什麼在設計寫入密集型的系統時，資料庫會考慮使用 Write-Ahead Log（WAL）？請說明 WAL 的基本概念以及它與資料持久性之間的關係。.md",
+    "1. Literature Note 文獻筆記/Book/2025/1. Designing Data-Intensive Applications  設計資料密集型應用/測驗/3. 為什麼快照隔離（Snapshot Isolation）無法防止 Write Skew，並說明這種異常是如何違反應用層的一致性。.md",
+    "2. Journal/2025/07/2025-07-16.md",
+    "1. Literature Note 文獻筆記/Book/2025/1. Designing Data-Intensive Applications  設計資料密集型應用/測驗/2. 資料庫系統中，為什麼在寫入操作中會優先選擇使用 LSM-Tree 而非 B-Tree？請簡要說明 LSM-Tree 的寫入流程與其帶來的優缺點。.md",
+    "1. Literature Note 文獻筆記/Book/2025/1. Designing Data-Intensive Applications  設計資料密集型應用/測驗/1. Copy-on-write.md",
+    "6. Flash Cards/English/2025/Adv 2504/Adv 0411-12 AI vs the metaverse.md",
+    "2. Journal/2025/07/2025-07-14.md",
+    "6. Flash Cards/English/2023/Advanced_2310/28/intricate.md",
+    "2. Journal/2025/07/2025-07-11.md",
+    "1. Literature Note 文獻筆記/Book/2025/2. System Design Interview An Insider’s Guide/Ch1. 第01章：从0到百万用户.md",
+    "2. Journal/2025/07/2025-07-09.md",
+    "2. Journal/2025/06/2025-06-20.md",
+    "1. Literature Note 文獻筆記/Book/2025/1. Designing Data-Intensive Applications  設計資料密集型應用/測驗/9. 資料分區（partitioning）時常見的幾種策略有哪些？請簡單比較範圍分區（range partitioning）與雜湊分區（hash partitioning）在負載均衡與查詢效率上的差異。.md",
+    "1. Literature Note 文獻筆記/Book/2025/2. System Design Interview An Insider’s Guide/Ch3. 第03章：系统设计面试框架.md",
+    "1. Literature Note 文獻筆記/Book/2025/2. System Design Interview An Insider’s Guide/Ch2. 第02章：粗略估算.md",
+    "2. Journal/2025/06/2025-06-22.md",
+    "1. Literature Note 文獻筆記/Book/2025/1. Designing Data-Intensive Applications  設計資料密集型應用/9.5 第三部分 衍生數據.md",
+    "7. Projects/2025/splatoon",
+    "2. Journal/2025/05 2",
+    "2. Journal/2025/05",
+    "2. Journal/2025/04",
+    "1. Literature Note 文獻筆記/Tech/System Design",
+    "6. Flash Cards/English/2025/Adv 2504",
+    "6. Flash Cards/English/2025",
+    "4. Permanent Note 永久筆記",
+    "未命名",
+    "1. Literature Note 文獻筆記/Tech/Data Structure/Pasted image 20230417223622.png"
+  ]
+}

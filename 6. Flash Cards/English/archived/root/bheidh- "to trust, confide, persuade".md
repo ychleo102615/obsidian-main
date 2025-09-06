@@ -1,0 +1,1 @@
+ [*bheidh-](https://www.etymonline.com/word/*bheidh- "Etymology, meaning and definition of *bheidh-") "to trust, confide, persuade."

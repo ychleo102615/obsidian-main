@@ -1,0 +1,1 @@
+suffix forming **abstract nouns from adjectives** and participles (see [-tude](https://www.etymonline.com/word/-tude "Etymology, meaning and definition of -tude"))

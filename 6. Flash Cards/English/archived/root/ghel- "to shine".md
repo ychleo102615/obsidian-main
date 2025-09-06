@@ -1,0 +1,1 @@
+[*ghel-](https://www.etymonline.com/word/*ghel-#etymonline_v_52720 "Etymology, meaning and definition of *ghel-") (2) "to shine,"

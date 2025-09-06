@@ -1,0 +1,1 @@
+ex- ek- "out" (see [ex-](https://www.etymonline.com/word/ex-?ref=etymonline_crossreference "Etymology, meaning and definition of ex-"))

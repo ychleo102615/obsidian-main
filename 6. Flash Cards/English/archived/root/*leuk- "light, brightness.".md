@@ -1,0 +1,1 @@
+ [*leuk-](https://www.etymonline.com/word/*leuk- "Etymology, meaning and definition of *leuk-") "light, brightness."

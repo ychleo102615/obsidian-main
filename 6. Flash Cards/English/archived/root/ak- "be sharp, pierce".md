@@ -1,0 +1,1 @@
+ [*ak-](https://www.etymonline.com/word/*ak- "Etymology, meaning and definition of *ak-") "be sharp, rise (out) to a point, pierce").

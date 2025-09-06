@@ -1,0 +1,1 @@
+[kap-](https://www.etymonline.com/word/*kap-?ref=etymonline_crossreference "Etymology, meaning and definition of *kap-") "to grasp" 

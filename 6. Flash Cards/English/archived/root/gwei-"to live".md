@@ -1,0 +1,1 @@
+bios "life" (from PIE root [*gwei-](https://www.etymonline.com/word/*gwei- "Etymology, meaning and definition of *gwei-") "to live") 

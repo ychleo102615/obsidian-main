@@ -1,0 +1,1 @@
+filius "son" (see [filial](https://www.etymonline.com/word/filial?ref=etymonline_crossreference "Etymology, meaning and definition of filial"))

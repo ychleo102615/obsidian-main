@@ -1,0 +1,32 @@
+{
+  "showGettingStartedBanner": false,
+  "hasMigratedDailyNoteSettings": false,
+  "hasMigratedWeeklyNoteSettings": true,
+  "daily": {
+    "format": "YYYY/MM/YYYY-MM-DD",
+    "template": "5. Template/2. daily note.md",
+    "folder": "2. Journal",
+    "enabled": true
+  },
+  "weekly": {
+    "format": "YYYY/MM/gggg-[W]ww",
+    "folder": "2. Journal",
+    "template": "5. Template/3. weekly note.md",
+    "enabled": true
+  },
+  "monthly": {
+    "format": "",
+    "template": "",
+    "folder": ""
+  },
+  "quarterly": {
+    "format": "",
+    "template": "",
+    "folder": ""
+  },
+  "yearly": {
+    "format": "",
+    "template": "",
+    "folder": ""
+  }
+}

@@ -1,0 +1,1 @@
+[*meg-](https://www.etymonline.com/word/*meg- "Etymology, meaning and definition of *meg-") "great"

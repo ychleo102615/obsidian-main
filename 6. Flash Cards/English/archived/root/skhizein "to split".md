@@ -1,0 +1,1 @@
+Latinized form of Greek skhizein "to split" (from PIE root [\*skei-](https://www.etymonline.com/word/*skei-?ref=etymonline_crossreference "Etymology, meaning and definition of *skei-") "to cut, split")

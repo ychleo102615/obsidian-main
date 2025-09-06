@@ -1,0 +1,1 @@
+de "from, away from" (see [de](https://www.etymonline.com/word/de "Etymology, meaning and definition of de"))

@@ -1,0 +1,1 @@
+https://www.etymonline.com/word/*wer-#etymonline_v_52560

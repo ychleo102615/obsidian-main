@@ -1,0 +1,1 @@
+https://www.etymonline.com/word/*sed-#etymonline_v_52569

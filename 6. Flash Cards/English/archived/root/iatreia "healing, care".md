@@ -1,0 +1,1 @@
+iatreia "healing, care" (see [-iatric](https://www.etymonline.com/word/-iatric?ref=etymonline_crossreference "Etymology, meaning and definition of -iatric"))

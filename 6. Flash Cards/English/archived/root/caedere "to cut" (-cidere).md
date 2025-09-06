@@ -1,0 +1,1 @@
+-cidere, combining form of caedere "to cut" (from PIE root [kae-id-](https://www.etymonline.com/word/*kae-id-?ref=etymonline_crossreference "Etymology, meaning and definition of *kae-id-") "to strike")

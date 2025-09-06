@@ -1,0 +1,1 @@
+[*reig-](https://www.etymonline.com/word/*reig- "Etymology, meaning and definition of *reig-") "stretch; be stretched; be stiff"

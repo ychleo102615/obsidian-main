@@ -1,0 +1,1 @@
+prae "before" (see [pre-](https://www.etymonline.com/word/pre-?ref=etymonline_crossreference "Etymology, meaning and definition of pre-"))

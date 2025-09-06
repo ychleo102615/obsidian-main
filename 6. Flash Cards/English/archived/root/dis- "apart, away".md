@@ -1,0 +1,1 @@
+dis- "apart, away" (see [dis-](https://www.etymonline.com/word/dis-?ref=etymonline_crossreference "Etymology, meaning and definition of dis-"))

@@ -1,0 +1,1 @@
+ergon "work" (from PIE root [werg-](https://www.etymonline.com/word/*werg-?ref=etymonline_crossreference "Etymology, meaning and definition of *werg-") "to do")

@@ -1,0 +1,1 @@
+"head" (from PIE root [*kaput-](https://www.etymonline.com/word/*kaput- "Etymology, meaning and definition of *kaput-") "head"). 

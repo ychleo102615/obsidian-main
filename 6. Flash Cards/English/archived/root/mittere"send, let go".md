@@ -1,0 +1,1 @@
+mittere"send, let go" (see [mission](https://www.etymonline.com/word/mission?ref=etymonline_crossreference "Etymology, meaning and definition of mission"))

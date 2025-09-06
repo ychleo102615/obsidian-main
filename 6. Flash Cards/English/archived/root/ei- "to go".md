@@ -1,0 +1,1 @@
+ire "go" (from PIE root [ei-](https://www.etymonline.com/word/*ei-?ref=etymonline_crossreference "Etymology, meaning and definition of *ei-") "to go")

@@ -1,0 +1,1 @@
+[gene-](https://www.etymonline.com/word/*gene-?ref=etymonline_crossreference "Etymology, meaning and definition of *gene-") "give birth, beget,

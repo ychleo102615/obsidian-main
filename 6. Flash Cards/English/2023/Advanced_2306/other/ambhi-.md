@@ -1,0 +1,1 @@
+ [*ambhi-](https://www.etymonline.com/word/*ambhi-?ref=etymonline_crossreference "Etymology, meaning and definition of *ambhi-")

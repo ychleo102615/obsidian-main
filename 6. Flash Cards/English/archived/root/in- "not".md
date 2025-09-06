@@ -1,0 +1,1 @@
+ in- "not" (see [in-](https://www.etymonline.com/word/in-#etymonline_v_6284 "Etymology, meaning and definition of in-") (1))

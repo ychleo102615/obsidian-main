@@ -1,0 +1,1 @@
+sub "up from under" (see [sub-](https://www.etymonline.com/word/sub- "Etymology, meaning and definition of sub-"))

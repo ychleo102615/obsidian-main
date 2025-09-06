@@ -1,0 +1,1 @@
+[weip-](https://www.etymonline.com/word/*weip-?ref=etymonline_crossreference "Etymology, meaning and definition of *weip-") "to turn, vacillate, tremble ecstatically"

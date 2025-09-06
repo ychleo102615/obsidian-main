@@ -1,0 +1,1 @@
+from PIE root [*do-](https://www.etymonline.com/word/*do- "Etymology, meaning and definition of *do-") "to give"

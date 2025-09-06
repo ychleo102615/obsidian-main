@@ -1,0 +1,1 @@
+ levis "light" in weight (from PIE root [*legwh-](https://www.etymonline.com/word/*legwh- "Etymology, meaning and definition of *legwh-") "not heavy, having little weight")

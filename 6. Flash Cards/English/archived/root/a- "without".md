@@ -1,0 +1,2 @@
+a- "without" (see [a-](https://www.etymonline.com/word/a-?ref=etymonline_crossreference#etymonline_v_24553 "Etymology, meaning and definition of a-") (3))
+prefix meaning "not, without," from Greek a-, an- "not" (the "alpha privative"), from PIE root [ne-](https://www.etymonline.com/word/*ne-?ref=etymonline_crossreference "Etymology, meaning and definition of *ne-") "not" (source also of English [un-](https://www.etymonline.com/word/un-?ref=etymonline_crossreference "Etymology, meaning and definition of un-")).

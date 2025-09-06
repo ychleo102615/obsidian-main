@@ -1,0 +1,1 @@
+ [\*bhreg-](https://www.etymonline.com/word/*bhreg- "Etymology, meaning and definition of *bhreg-") "to break."

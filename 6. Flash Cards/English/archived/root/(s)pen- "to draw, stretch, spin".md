@@ -1,0 +1,1 @@
+ [(s)pen-](https://www.etymonline.com/word/*%28s%29pen- "Etymology, meaning and definition of *(s)pen-") "to draw, stretch, spin"

@@ -1,0 +1,1 @@
+ [*dhe-](https://www.etymonline.com/word/*dhe- "Etymology, meaning and definition of *dhe-") "to set, put"

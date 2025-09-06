@@ -1,0 +1,1 @@
+ [ked-](https://www.etymonline.com/word/*ked-?ref=etymonline_crossreference "Etymology, meaning and definition of *ked-") "to go, yield"

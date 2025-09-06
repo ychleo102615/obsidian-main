@@ -1,0 +1,1 @@
+phrēn (genitive phrenos) "heart, mind" (hence phrenes "wits, sanity"), for which see [phreno-](https://www.etymonline.com/word/phreno-?ref=etymonline_crossreference "Etymology, meaning and definition of phreno-")

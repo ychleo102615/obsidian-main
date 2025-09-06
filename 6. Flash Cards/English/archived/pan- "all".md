@@ -1,0 +1,1 @@
+[pan-](https://www.etymonline.com/word/pan- "Etymology, meaning and definition of pan-") "all" 

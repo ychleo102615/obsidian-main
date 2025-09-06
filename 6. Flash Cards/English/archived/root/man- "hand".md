@@ -1,0 +1,1 @@
+from PIE root [*man-](https://www.etymonline.com/word/*man-#etymonline_v_52623 "Etymology, meaning and definition of *man-") (2) "hand"

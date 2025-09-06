@@ -1,0 +1,1 @@
+[per-](https://www.etymonline.com/word/*per-?ref=etymonline_crossreference#etymonline_v_52721 "Etymology, meaning and definition of *per-") (1) "forward," hence "in front of, before, first, chief."

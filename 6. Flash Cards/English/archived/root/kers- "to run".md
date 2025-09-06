@@ -1,0 +1,1 @@
+ [*kers-](https://www.etymonline.com/word/*kers- "Etymology, meaning and definition of *kers-") "to run"

@@ -1,0 +1,1 @@
+[*pa-](https://www.etymonline.com/word/*pa-?ref=etymonline_crossreference "Etymology, meaning and definition of *pa-") "to feed; tend, guard, protect.

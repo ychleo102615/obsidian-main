@@ -1,0 +1,1 @@
+ [*po(i)-](https://www.etymonline.com/word/*po(i)- "Etymology, meaning and definition of *po(i)-") "to drink

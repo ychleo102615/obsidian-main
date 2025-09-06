@@ -1,0 +1,49 @@
+{
+  "items": [
+    {
+      "type": "file",
+      "ctime": 1715956962657,
+      "path": "7. Projects/Leetcode/How to effectively use LeetCode to prepare for interviews!!.md",
+      "title": "Leet Code Must Do"
+    },
+    {
+      "type": "file",
+      "ctime": 1719734381066,
+      "path": "1. Literature Note 文獻筆記/Book/2024/4. 實戰領域設計驅動設計/實戰領域設計驅動設計.md"
+    },
+    {
+      "type": "file",
+      "ctime": 1728309944467,
+      "path": "1. Literature Note 文獻筆記/Book/2024/5. 領域驅動設計/領域驅動設計.md"
+    },
+    {
+      "type": "file",
+      "ctime": 1747923303151,
+      "path": "7. Projects/Leetcode/解題模板.md",
+      "title": "解題模板"
+    },
+    {
+      "type": "group",
+      "ctime": 1755186426073,
+      "items": [
+        {
+          "type": "folder",
+          "ctime": 1755186556588,
+          "path": "1. Literature Note 文獻筆記/Tech/Language/Vue/Vue3前端新手營2025"
+        },
+        {
+          "type": "folder",
+          "ctime": 1755522809478,
+          "path": "1. Literature Note 文獻筆記/Tech/Language/Java"
+        }
+      ],
+      "title": "程式語言"
+    },
+    {
+      "type": "folder",
+      "ctime": 1756880454231,
+      "path": "1. Literature Note 文獻筆記/Tech/Work",
+      "title": "Work"
+    }
+  ]
+}

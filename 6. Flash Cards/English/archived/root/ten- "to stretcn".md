@@ -1,0 +1,1 @@
+[*ten-](https://www.etymonline.com/word/*ten- "Etymology, meaning and definition of *ten-") "to stretch."

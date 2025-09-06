@@ -1,0 +1,1 @@
+com-, intensive prefix (see [com-](https://www.etymonline.com/word/com-?ref=etymonline_crossreference "Etymology, meaning and definition of com-"))

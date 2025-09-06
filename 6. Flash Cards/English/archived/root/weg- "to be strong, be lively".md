@@ -1,0 +1,1 @@
+[weg-](https://www.etymonline.com/word/*weg-?ref=etymonline_crossreference "Etymology, meaning and definition of *weg-") "to be strong, be lively."

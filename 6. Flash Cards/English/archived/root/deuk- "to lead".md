@@ -1,0 +1,1 @@
+ducere "to lead" (from PIE root [*deuk-](https://www.etymonline.com/word/*deuk- "Etymology, meaning and definition of *deuk-") "to lead")

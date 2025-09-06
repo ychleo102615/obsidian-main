@@ -1,0 +1,2 @@
+ [-ite](https://www.etymonline.com/word/-ite?ref=etymonline_crossreference#etymonline_v_35159 "Etymology, meaning and definition of -ite")
+ Especially used in classical times to form ethnic and local designations (for example in Septuagint translations of Hebrew names in -i) and for names of gems and minerals.

@@ -1,0 +1,1 @@
+psykhē "mind" (see [psyche](https://www.etymonline.com/word/psyche?ref=etymonline_crossreference "Etymology, meaning and definition of psyche"))
