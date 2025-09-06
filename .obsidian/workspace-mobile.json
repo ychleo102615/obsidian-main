@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Journal/2025/08/2025-08-16.md",
+                "file": "2. Journal/2025/09/2025-09-06.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-08-16"
+              "title": "2025-09-06"
             }
           }
         ]
@@ -79,8 +79,8 @@
         "state": {
           "type": "starred",
           "state": {},
-          "icon": "lucide-file",
-          "title": "外掛程式已不復活躍"
+          "icon": "lucide-ghost",
+          "title": "starred"
         }
       },
       {
@@ -115,6 +115,16 @@
           },
           "icon": "lucide-archive",
           "title": "所有屬性"
+        }
+      },
+      {
+        "id": "3f15182597dc8c66",
+        "type": "leaf",
+        "state": {
+          "type": "recent-files",
+          "state": {},
+          "icon": "clock",
+          "title": "Recent Files"
         }
       }
     ],
@@ -175,8 +185,8 @@
         "state": {
           "type": "calendar",
           "state": {},
-          "icon": "calendar-with-checkmark",
-          "title": "Calendar"
+          "icon": "lucide-ghost",
+          "title": "calendar"
         }
       },
       {
@@ -185,8 +195,8 @@
         "state": {
           "type": "review-queue-list-view",
           "state": {},
-          "icon": "lucide-file",
-          "title": "外掛程式已不復活躍"
+          "icon": "lucide-ghost",
+          "title": "review-queue-list-view"
         }
       }
     ],
@@ -194,6 +204,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:建立新的 base": false,
       "switcher:開啟快速切換": false,
       "graph:查看關聯圖": false,
       "canvas:建立新畫布": false,
@@ -202,13 +213,14 @@
       "command-palette:開啟命令面板": false,
       "random-note:開始漫遊筆記": false,
       "templater-obsidian:Templater": false,
+      "obsidian-git:Open Git source control": false,
       "periodic-notes:Open today": false
     }
   },
   "active": "a5bcea2fc059111b",
   "lastOpenFiles": [
-    "6. Flash Cards/English/archived/root/-ious, -ient 比較.md",
     "2. Journal/2025/08/2025-08-16.md",
+    "6. Flash Cards/English/archived/root/-ious, -ient 比較.md",
     "2. Journal/2025/08/2025-08-15.md",
     "1. Literature Note 文獻筆記/Book/2025/1. Designing Data-Intensive Applications  設計資料密集型應用/測驗/7. 為什麼許多現代資料庫會使用多版本並行控制（MVCC）來實現交易隔離？它是如何讓讀取與寫入可以同時發生而不互相阻塞的？.md",
     "1. Literature Note 文獻筆記/Tech/Language/Java/待辦清單server/1. 整理環境.md",
