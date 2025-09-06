@@ -49,7 +49,7 @@
         "state": {
           "type": "search",
           "state": {
-            "query": "權宜",
+            "query": "",
             "matchingCase": true,
             "explainSearch": false,
             "collapseAll": true,
@@ -128,7 +128,7 @@
         }
       }
     ],
-    "currentTab": 1
+    "currentTab": 4
   },
   "right": {
     "id": "48b10c227cf4cb6e",
@@ -219,6 +219,11 @@
   },
   "active": "a5bcea2fc059111b",
   "lastOpenFiles": [
+    "/1. Literature Note 文獻筆記/Tech/Obsidian/使用Github 同步.md",
+    "1. Literature Note 文獻筆記/Tech/Obsidian/使用Github 同步.md",
+    "/1. Literature Note 文獻筆記/Tech/Obsidian",
+    "/1. Literature Note 文獻筆記/Tech",
+    "/1. Literature Note 文獻筆記",
     "/2. Journal/2025/09/2025-09-06.md",
     "/2. Journal/2025/09",
     "/2. Journal/2025",
@@ -247,14 +252,9 @@
     "2. Journal/2025/06/2025-06-20.md",
     "1. Literature Note 文獻筆記/Book/2025/1. Designing Data-Intensive Applications  設計資料密集型應用/測驗/9. 資料分區（partitioning）時常見的幾種策略有哪些？請簡單比較範圍分區（range partitioning）與雜湊分區（hash partitioning）在負載均衡與查詢效率上的差異。.md",
     "1. Literature Note 文獻筆記/Book/2025/2. System Design Interview An Insider’s Guide/Ch3. 第03章：系统设计面试框架.md",
-    "1. Literature Note 文獻筆記/Book/2025/2. System Design Interview An Insider’s Guide/Ch2. 第02章：粗略估算.md",
-    "2. Journal/2025/06/2025-06-22.md",
     "7. Projects/2025/splatoon",
     "2. Journal/2025/05 2",
     "2. Journal/2025/05",
-    "2. Journal/2025/04",
-    "1. Literature Note 文獻筆記/Tech/System Design",
-    "6. Flash Cards/English/2025/Adv 2504",
     "1. Literature Note 文獻筆記/Tech/Data Structure/Pasted image 20230417223622.png"
   ]
 }
