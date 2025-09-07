@@ -21,9 +21,21 @@
     {
       "folder": "7. Projects",
       "template": "5. Template/tp normal note.md"
+    },
+    {
+      "folder": "",
+      "template": ""
+    }
+  ],
+  "enable_file_templates": false,
+  "file_templates": [
+    {
+      "regex": ".*",
+      "template": ""
     }
   ],
   "syntax_highlighting": true,
+  "syntax_highlighting_mobile": false,
   "enabled_templates_hotkeys": [
     "5. Template/1. normal note.md"
   ],

@@ -12,5 +12,8 @@ time: 13:48
 
 ### 1. Obsidian使用Git同步
 本來我都是用iCloud同步，為了幾個原因改成用Git同步：
+1. 方便同步Obsidian到VitePress這邊，想到可以用submoudle, subtree的方式來管理。但現在棄用這個方式了。
+2. iPhone, iCloud行動裝置同步常常出問題，裝置因為iCloud原因會優化空間刪減，所以平常大部分的時間都沒法在裝置上面用。
 
-1. 方便同步到VitePress這邊，想到可以用submoudle, subtree的方式來管理。但雖然現在棄用這個方式了）來
+參考[[使用Github 同步]]
+
