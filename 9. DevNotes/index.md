@@ -1,8 +1,4 @@
 ---
-tags: []
-date: 2025-09-07
-time: 14:05
-
 # https://vitepress.dev/reference/default-theme-home-page
 
 layout: home
@@ -14,7 +10,7 @@ hero:
 	actions:
 		- theme: brand
 		text: VitePress
-		link: /markdown-examples
+		link: /VitePress
 
 features:
 	- title: Feature A
