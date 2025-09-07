@@ -140,7 +140,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "1. Literature Note 文獻筆記/Book/2025/1. Designing Data-Intensive Applications  設計資料密集型應用/測驗/7. 為什麼許多現代資料庫會使用多版本並行控制（MVCC）來實現交易隔離？它是如何讓讀取與寫入可以同時發生而不互相阻塞的？.md",
+            "file": "2. Journal/2025/09/2025-09-06.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
