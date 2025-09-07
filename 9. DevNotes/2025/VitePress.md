@@ -18,7 +18,8 @@ time: 13:48
 ### 使用rsync同步Obsidian資料夾到VitePress專案
 本來用submodule, subtree的。但是實際操作起來太費工了，用rsync的話只要發部或是測試的時候跑一次就OK了。
 
-###### 環境變數寫法
+<br>
+###### 小補充： 環境變數寫法
 ::: details 
 ```bash
 export VAULT_NOTES="$HOME/non-icloud-Document/Obsidian/"
@@ -26,5 +27,5 @@ export VAULT_NOTES="$HOME/non-icloud-Document/Obsidian/"
 :::
 
 
-參考[[使用Github 同步]]
+參考[使用Github 同步](使用Github 同步)
 
