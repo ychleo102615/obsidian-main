@@ -23,8 +23,8 @@
       "template": "5. Template/tp normal note.md"
     },
     {
-      "folder": "",
-      "template": ""
+      "folder": "9. DevNotes",
+      "template": "5. Template/tp normal note.md"
     }
   ],
   "enable_file_templates": false,
