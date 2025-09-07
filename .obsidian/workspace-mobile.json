@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "05ba0a77910d3bb2",
+        "id": "70db2c763140e4b5",
         "type": "tabs",
         "children": [
           {
-            "id": "a5bcea2fc059111b",
+            "id": "9084e1c23866292f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -128,7 +128,7 @@
         }
       }
     ],
-    "currentTab": 4
+    "currentTab": 0
   },
   "right": {
     "id": "48b10c227cf4cb6e",
@@ -140,7 +140,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "1. Literature Note 文獻筆記/Book/2025/1. Designing Data-Intensive Applications  設計資料密集型應用/測驗/7. 為什麼許多現代資料庫會使用多版本並行控制（MVCC）來實現交易隔離？它是如何讓讀取與寫入可以同時發生而不互相阻塞的？.md",
+            "file": "2. Journal/2025/09/2025-09-06.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -217,10 +217,15 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "a5bcea2fc059111b",
+  "active": "9084e1c23866292f",
   "lastOpenFiles": [
-    "/1. Literature Note 文獻筆記/Tech/Obsidian/使用Github 同步.md",
+    "2. Journal/2025/09/2025-09-07.md",
+    "未命名 2.base",
     "1. Literature Note 文獻筆記/Tech/Obsidian/使用Github 同步.md",
+    "未命名 1.base",
+    "未命名.base",
+    "2. Journal/2025/09/2025-09-06.md",
+    "/1. Literature Note 文獻筆記/Tech/Obsidian/使用Github 同步.md",
     "/1. Literature Note 文獻筆記/Tech/Obsidian",
     "/1. Literature Note 文獻筆記/Tech",
     "/1. Literature Note 文獻筆記",
@@ -249,12 +254,6 @@
     "2. Journal/2025/07/2025-07-11.md",
     "1. Literature Note 文獻筆記/Book/2025/2. System Design Interview An Insider’s Guide/Ch1. 第01章：从0到百万用户.md",
     "2. Journal/2025/07/2025-07-09.md",
-    "2. Journal/2025/06/2025-06-20.md",
-    "1. Literature Note 文獻筆記/Book/2025/1. Designing Data-Intensive Applications  設計資料密集型應用/測驗/9. 資料分區（partitioning）時常見的幾種策略有哪些？請簡單比較範圍分區（range partitioning）與雜湊分區（hash partitioning）在負載均衡與查詢效率上的差異。.md",
-    "1. Literature Note 文獻筆記/Book/2025/2. System Design Interview An Insider’s Guide/Ch3. 第03章：系统设计面试框架.md",
-    "7. Projects/2025/splatoon",
-    "2. Journal/2025/05 2",
-    "2. Journal/2025/05",
     "1. Literature Note 文獻筆記/Tech/Data Structure/Pasted image 20230417223622.png"
   ]
 }

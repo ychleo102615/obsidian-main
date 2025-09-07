@@ -1,5 +1,5 @@
 {
-  "autorun": true,
+  "autorun": false,
   "folder": "2. Journal",
   "template": "5. Template/2. daily note",
   "format": "YYYY/MM/YYYY-MM-DD"
