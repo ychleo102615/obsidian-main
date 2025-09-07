@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "05ba0a77910d3bb2",
+        "id": "70db2c763140e4b5",
         "type": "tabs",
         "children": [
           {
-            "id": "a5bcea2fc059111b",
+            "id": "9084e1c23866292f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -128,7 +128,7 @@
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 4
   },
   "right": {
     "id": "48b10c227cf4cb6e",
@@ -217,10 +217,13 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "a5bcea2fc059111b",
+  "active": "9084e1c23866292f",
   "lastOpenFiles": [
-    "1. Literature Note 文獻筆記/Tech/Obsidian/使用Github 同步.md",
+    "未命名 2.base",
     "2. Journal/2025/09/2025-09-07.md",
+    "1. Literature Note 文獻筆記/Tech/Obsidian/使用Github 同步.md",
+    "未命名 1.base",
+    "未命名.base",
     "2. Journal/2025/09/2025-09-06.md",
     "/1. Literature Note 文獻筆記/Tech/Obsidian/使用Github 同步.md",
     "/1. Literature Note 文獻筆記/Tech/Obsidian",
@@ -251,10 +254,6 @@
     "2. Journal/2025/07/2025-07-11.md",
     "1. Literature Note 文獻筆記/Book/2025/2. System Design Interview An Insider’s Guide/Ch1. 第01章：从0到百万用户.md",
     "2. Journal/2025/07/2025-07-09.md",
-    "2. Journal/2025/06/2025-06-20.md",
-    "7. Projects/2025/splatoon",
-    "2. Journal/2025/05 2",
-    "2. Journal/2025/05",
     "1. Literature Note 文獻筆記/Tech/Data Structure/Pasted image 20230417223622.png"
   ]
 }
