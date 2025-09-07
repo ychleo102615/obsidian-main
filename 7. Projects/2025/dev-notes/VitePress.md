@@ -5,4 +5,12 @@ time: 13:48
 ---
 
 我想為個人專案做一個開發筆記記錄。
-昨天問了gpt之後，他給我幾個工具：`Hugo`, `Jekyll`
+昨天問了gpt之後，他給我幾個工具：`Hugo`, `Jekyll`, `VitePress`。
+
+雖然視覺上`Jekyll`看起來挺讚的（以前看過很多類似網站是用這個工具），
+但因為我個人常用`Obsidian`作筆記，而VitePress能夠直接md檔案換成vue頁面，也更方便用vue工具做其他應用，就選VitePress了。
+
+### 1. Obsidian使用Git同步
+本來我都是用iCloud同步，為了幾個原因改成用Git同步：
+
+1. 方便同步到VitePress這邊，想到可以用submoudle, subtree的方式來管理。但雖然現在棄用這個方式了）來
