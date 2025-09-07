@@ -24,7 +24,7 @@
     },
     {
       "folder": "9. DevNotes",
-      "template": "5. Template/tp normal note.md"
+      "template": "5. Template/dev note date.md"
     }
   ],
   "enable_file_templates": false,
