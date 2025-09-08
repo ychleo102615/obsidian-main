@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "2. Journal/2025/09/2025-09-06.md",
+                "file": "9. DevNotes/2025/2. 個人專案發想.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-09-06"
+              "title": "2. 個人專案發想"
             }
           }
         ]
@@ -219,12 +219,14 @@
   },
   "active": "9084e1c23866292f",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
+    "9. DevNotes/2025/2. 個人專案發想.md",
+    "2. Journal/2025/09/2025-09-06.md",
     "2. Journal/2025/09/2025-09-07.md",
     "未命名 2.base",
     "1. Literature Note 文獻筆記/Tech/Obsidian/使用Github 同步.md",
     "未命名 1.base",
     "未命名.base",
-    "2. Journal/2025/09/2025-09-06.md",
     "/1. Literature Note 文獻筆記/Tech/Obsidian/使用Github 同步.md",
     "/1. Literature Note 文獻筆記/Tech/Obsidian",
     "/1. Literature Note 文獻筆記/Tech",
@@ -253,7 +255,6 @@
     "6. Flash Cards/English/2023/Advanced_2310/28/intricate.md",
     "2. Journal/2025/07/2025-07-11.md",
     "1. Literature Note 文獻筆記/Book/2025/2. System Design Interview An Insider’s Guide/Ch1. 第01章：从0到百万用户.md",
-    "2. Journal/2025/07/2025-07-09.md",
     "1. Literature Note 文獻筆記/Tech/Data Structure/Pasted image 20230417223622.png"
   ]
 }
