@@ -27,6 +27,8 @@ layout: doc
 
 之前的教學有提到playright，我這次沒先連接起來。
 
+我是先在Claude上面設計的（沒花錢），而code是依照該設計實踐的。會不會讓code自己設計，得到結果會更好？
+
 
 
 > [!claude]
@@ -48,3 +50,12 @@ layout: doc
 >   2. 類型安全 - 完整的 TypeScript 類型定義和檢查
 >   3. 可擴展性 - 支援未來擴展 WebGL 渲染器和遠端 API
 >   4. 遊戲功能完整 - 實現完整的花牌遊戲邏輯、役種判定和計分系統
+
+燒了$4.3。成果差強人意：
+
+# TODO
+1. 讓遊戲可以走完
+2. 調整網站整體layout
+3. 看懂程式碼
+
+[連結](https://github.com/ychleo102615/hanahuda)
