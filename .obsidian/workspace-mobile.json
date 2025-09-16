@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Literature Note 文獻筆記/Tech/Language/Java/待辦清單server/Spring Boot 建一個待辦清單（Todo）後端.md",
-                "mode": "preview",
+                "file": "2. Journal/2025/09/2025-09-15.md",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Spring Boot 建一個待辦清單（Todo）後端"
+              "title": "2025-09-15"
             }
           }
         ]
@@ -89,8 +89,8 @@
         "state": {
           "type": "recent-files",
           "state": {},
-          "icon": "clock",
-          "title": "Recent Files"
+          "icon": "lucide-ghost",
+          "title": "recent-files"
         }
       },
       {
@@ -123,8 +123,8 @@
         "state": {
           "type": "recent-files",
           "state": {},
-          "icon": "clock",
-          "title": "Recent Files"
+          "icon": "lucide-ghost",
+          "title": "recent-files"
         }
       }
     ],
@@ -140,7 +140,7 @@
         "state": {
           "type": "backlink",
           "state": {
-            "file": "1. Literature Note 文獻筆記/Tech/Language/Java/待辦清單server/Spring Boot 建一個待辦清單（Todo）後端.md",
+            "file": "2. Journal/2025/09/2025-09-15.md",
             "collapseAll": false,
             "extraContext": false,
             "sortOrder": "alphabetical",
@@ -185,8 +185,8 @@
         "state": {
           "type": "calendar",
           "state": {},
-          "icon": "lucide-ghost",
-          "title": "calendar"
+          "icon": "calendar-with-checkmark",
+          "title": "Calendar"
         }
       },
       {
@@ -200,7 +200,7 @@
         }
       }
     ],
-    "currentTab": 0
+    "currentTab": 3
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -208,7 +208,6 @@
       "switcher:開啟快速切換": false,
       "graph:查看關聯圖": false,
       "canvas:建立新畫布": false,
-      "daily-notes:開啟今天的每日筆記": false,
       "templates:插入模板": false,
       "command-palette:開啟命令面板": false,
       "random-note:開始漫遊筆記": false,
@@ -219,6 +218,14 @@
   },
   "active": "b78380bb96174b9a",
   "lastOpenFiles": [
+    "1. Literature Note 文獻筆記/Tech/Language/Java/待辦清單server/TODO API 運行測試.md",
+    "未命名.md",
+    "2. Journal/2025/09/2025-09-15.md",
+    "2. Journal/2025/09/2025-09-11.md",
+    "2. Journal/2025/09/2025-09-09.md",
+    "9. DevNotes/2025/3. 使用樣板工具.md",
+    "9. DevNotes/2025/4. 拖延.md",
+    "1. Literature Note 文獻筆記/Tech/Language/Java/待辦清單server/Docker.md",
     "1. Literature Note 文獻筆記/Tech/Language/Java/待辦清單server/Spring Boot 建一個待辦清單（Todo）後端.md",
     "9. DevNotes/2025/2. 個人專案發想.md",
     "/2. Journal/2025/09/2025-09-08.md",
@@ -247,14 +254,6 @@
     "1. Literature Note 文獻筆記/Tech/Language/Java/待辦清單server",
     "1. Literature Note 文獻筆記/Book/2025/1. Designing Data-Intensive Applications  設計資料密集型應用/測驗/6. 在分散式系統的錯誤處理中，什麼是「拜占庭錯誤（Byzantine Fault）」？與一般的節點失效（crash fault）相比，它有什麼特別的挑戰？.md",
     "2. Journal/2025/07/2025-07-17.md",
-    "1. Literature Note 文獻筆記/Book/2025/1. Designing Data-Intensive Applications  設計資料密集型應用/測驗/5. 在資料分區（Partitioning）系統中，請解釋什麼是「再分區（Repartitioning）」？為什麼這個動作在系統擴展時可能會非常昂貴？.md",
-    "1. Literature Note 文獻筆記/Book/2025/1. Designing Data-Intensive Applications  設計資料密集型應用/測驗/4. 為什麼在設計寫入密集型的系統時，資料庫會考慮使用 Write-Ahead Log（WAL）？請說明 WAL 的基本概念以及它與資料持久性之間的關係。.md",
-    "1. Literature Note 文獻筆記/Book/2025/1. Designing Data-Intensive Applications  設計資料密集型應用/測驗/3. 為什麼快照隔離（Snapshot Isolation）無法防止 Write Skew，並說明這種異常是如何違反應用層的一致性。.md",
-    "2. Journal/2025/07/2025-07-16.md",
-    "1. Literature Note 文獻筆記/Book/2025/1. Designing Data-Intensive Applications  設計資料密集型應用/測驗/2. 資料庫系統中，為什麼在寫入操作中會優先選擇使用 LSM-Tree 而非 B-Tree？請簡要說明 LSM-Tree 的寫入流程與其帶來的優缺點。.md",
-    "1. Literature Note 文獻筆記/Book/2025/1. Designing Data-Intensive Applications  設計資料密集型應用/測驗/1. Copy-on-write.md",
-    "6. Flash Cards/English/2025/Adv 2504/Adv 0411-12 AI vs the metaverse.md",
-    "2. Journal/2025/07/2025-07-14.md",
     "1. Literature Note 文獻筆記/Tech/Data Structure/Pasted image 20230417223622.png"
   ]
 }
