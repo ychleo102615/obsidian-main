@@ -11,14 +11,10 @@
             "id": "b78380bb96174b9a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2. Journal/2025/09/2025-09-15.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "2025-09-15"
+              "title": "新分頁"
             }
           }
         ]
@@ -218,9 +214,13 @@
   },
   "active": "b78380bb96174b9a",
   "lastOpenFiles": [
+    "1. Literature Note 文獻筆記/Book/2025/3. 高效原力.md",
+    "/1. Literature Note 文獻筆記/Book/2025",
+    "/1. Literature Note 文獻筆記/Book",
+    "/1. Literature Note 文獻筆記",
+    "2. Journal/2025/09/2025-09-15.md",
     "1. Literature Note 文獻筆記/Tech/Language/Java/待辦清單server/TODO API 運行測試.md",
     "未命名.md",
-    "2. Journal/2025/09/2025-09-15.md",
     "2. Journal/2025/09/2025-09-11.md",
     "2. Journal/2025/09/2025-09-09.md",
     "9. DevNotes/2025/3. 使用樣板工具.md",
@@ -242,8 +242,6 @@
     "未命名.base",
     "/1. Literature Note 文獻筆記/Tech/Obsidian/使用Github 同步.md",
     "/1. Literature Note 文獻筆記/Tech/Obsidian",
-    "/1. Literature Note 文獻筆記/Tech",
-    "/1. Literature Note 文獻筆記",
     "/2. Journal/2025/09/2025-09-06.md",
     "2. Journal/2025/08/2025-08-16.md",
     "6. Flash Cards/English/archived/root/-ious, -ient 比較.md",
@@ -251,9 +249,6 @@
     "1. Literature Note 文獻筆記/Book/2025/1. Designing Data-Intensive Applications  設計資料密集型應用/測驗/7. 為什麼許多現代資料庫會使用多版本並行控制（MVCC）來實現交易隔離？它是如何讓讀取與寫入可以同時發生而不互相阻塞的？.md",
     "1. Literature Note 文獻筆記/Tech/Language/Java/待辦清單server/1. 整理環境.md",
     "1. Literature Note 文獻筆記/Tech/Language/Java/待辦清單server/0) 目標與範圍.md",
-    "1. Literature Note 文獻筆記/Tech/Language/Java/待辦清單server",
-    "1. Literature Note 文獻筆記/Book/2025/1. Designing Data-Intensive Applications  設計資料密集型應用/測驗/6. 在分散式系統的錯誤處理中，什麼是「拜占庭錯誤（Byzantine Fault）」？與一般的節點失效（crash fault）相比，它有什麼特別的挑戰？.md",
-    "2. Journal/2025/07/2025-07-17.md",
     "1. Literature Note 文獻筆記/Tech/Data Structure/Pasted image 20230417223622.png"
   ]
 }
