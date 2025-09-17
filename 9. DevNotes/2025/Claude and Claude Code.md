@@ -1,5 +1,6 @@
 ---
-tags: [devnote]
+tags:
+  - devnote
 date: 2025-09-16
 time: 23:11
 layout: doc
@@ -59,3 +60,5 @@ layout: doc
 3. 看懂程式碼
 
 [連結](https://github.com/ychleo102615/hanahuda)
+
+[[2025-09-17|2025-09-17 Wed, 15:39]]
