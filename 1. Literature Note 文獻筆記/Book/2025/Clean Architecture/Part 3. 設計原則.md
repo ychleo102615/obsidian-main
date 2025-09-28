@@ -42,4 +42,16 @@ save()           方法由資料庫管理員指定，向CTO報告
 ```
 
 這個耦合可能會導致CFO團隊的行為影響了COO團隊所依賴的東西。
-例如
+例如：calculatePay, reportHours共用了計算非加班時間的演算法，叫他regularHours()
+
+CFO團隊決定非加班時間的計算方式需要調整，但是COO不想要。
+
+我們需要分開不同角色所依賴的程式嗎。
+
+
+```mermaid
+graph TD
+    calculatePay["calculatePay"] --> regularHours["regularHours"]
+    reportHours["reportHours"] --> regularHours
+
+```
