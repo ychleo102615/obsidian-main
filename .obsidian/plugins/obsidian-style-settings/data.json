@@ -3,5 +3,7 @@
   "anuppuccin-theme-settings-extended@@anp-theme-ext-dark": true,
   "anuppuccin-theme-settings-extended@@anp-theme-ext-amoled": true,
   "anuppuccin-theme-settings-extended@@catppuccin-theme-dark-extended": "ctp-amoled-dark",
-  "anuppuccin-theme-settings-extended@@catppuccin-theme-extended": "ctp-notion-light"
+  "anuppuccin-theme-settings-extended@@catppuccin-theme-extended": "ctp-notion-light",
+  "ITS@@scrollbar-width": 12,
+  "ITS@@accent-color": true
 }
