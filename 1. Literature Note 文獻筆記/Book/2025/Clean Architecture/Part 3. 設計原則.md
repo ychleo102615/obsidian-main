@@ -36,4 +36,10 @@ time: 22:45
 
 ```
 Employee
+calculatePay()   方法由會計部指定，向CFO報告
+reportHours()    方法由人力資源部指定，向COO報告
+save()           方法由資料庫管理員指定，向CTO報告
 ```
+
+這個耦合可能會導致CFO團隊的行為影響了COO團隊所依賴的東西。
+例如
