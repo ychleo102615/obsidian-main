@@ -14,5 +14,10 @@
   "obsidian-prism-theme@@pt-disable-callout-styling": false,
   "obsidian-prism-theme@@pt-disable-mark-highlight-styling": false,
   "obsidian-prism-theme@@pt-collapsed-pinned-tab": false,
-  "obsidian-prism-theme@@pt-pdf-dark-theme": false
+  "obsidian-prism-theme@@pt-pdf-dark-theme": false,
+  "obsidian-prism-theme@@pt-titlebar-hide-text": false,
+  "obsidian-prism-theme@@scroll-bar-size": 12,
+  "obsidian-prism-theme@@color-schemes-lt": "pt-color-scheme-swan-lt",
+  "obsidian-prism-theme@@color-scheme-style-lt": "pt-color-scheme-style-two-tone-and-border-lt",
+  "obsidian-prism-theme@@light-accent-color-preset": "pt-accent-color-cyan-lt"
 }
