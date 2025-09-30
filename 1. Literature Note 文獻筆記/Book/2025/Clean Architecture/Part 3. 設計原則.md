@@ -111,3 +111,5 @@ classDiagram
 **Open-Closed Principle**
 
 軟體應該對於擴展開放，對於修改封閉。
+Software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification.
+
