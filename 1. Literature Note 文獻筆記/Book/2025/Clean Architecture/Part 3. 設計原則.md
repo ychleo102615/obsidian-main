@@ -65,3 +65,39 @@ graph TD
 
 **==分離支援不同角色的程式碼。==**
 
+## 解決方案
+
+一個明顯方法是將資料與函式分開。這三個類別共用了`EmployData`，這是一個沒有方法的簡單資料結構。
+三個類別不允許了解彼此。因此避免了義ㄨㄞ
+
+```mermaid
+classDiagram
+    class EmployeeFacade {
+        +calculatePay()
+        +reportHours()
+        +save()
+    }
+
+    class PayCalculator {
+        +calculatePay()
+    }
+
+    class HourReporter {
+        +reportHours()
+    }
+
+    class EmployeeSaver {
+        +saveEmployee()
+    }
+
+    class EmployeeData
+
+    EmployeeFacade --> PayCalculator
+    EmployeeFacade --> HourReporter
+    EmployeeFacade --> EmployeeSaver
+
+    PayCalculator --> EmployeeData
+    HourReporter --> EmployeeData
+    EmployeeSaver --> EmployeeData
+
+```
