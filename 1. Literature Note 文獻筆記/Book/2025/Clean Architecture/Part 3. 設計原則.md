@@ -32,7 +32,7 @@ time: 22:45
 一個原始檔，或是一個由函式和資料結構相互凝聚（cohensive）在一起的集合。
 
 
-## 症狀1. 意外重複
+## 症狀1： 意外重複
 
 ```
 Employee
@@ -55,3 +55,8 @@ graph TD
     reportHours["reportHours"] --> regularHours
 
 ```
+
+## 症狀2： 合併
+
+不同團隊對`Employee`類別修改、碰撞，最終合併。
+沒有工具可以處理每一個合併案裡，最後總是會有風險。
