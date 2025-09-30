@@ -68,7 +68,9 @@ graph TD
 ## 解決方案
 
 一個明顯方法是將資料與函式分開。這三個類別共用了`EmployData`，這是一個沒有方法的簡單資料結構。
-三個類別不允許了解彼此。因此避免了義ㄨㄞ
+三個類別不允許了解彼此。因此避免了意外重複。
+
+為了避免時力化和追蹤三個類別，使用`Facade`模式。
 
 ```mermaid
 classDiagram
@@ -101,3 +103,11 @@ classDiagram
     EmployeeSaver --> EmployeeData
 
 ```
+
+每個類別都是一個視野範圍。在這個視野範圍之外，沒有人知道存在這個家族的私有成員。
+
+# Ch8. OCP 開放封閉原則
+
+**Open-Closed Principle**
+
+軟體應該對於擴展開放，對於修改封閉。
