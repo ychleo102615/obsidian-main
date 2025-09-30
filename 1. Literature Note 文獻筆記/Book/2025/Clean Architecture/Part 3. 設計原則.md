@@ -113,3 +113,5 @@ classDiagram
 軟體應該對於擴展開放，對於修改封閉。
 Software entities (classes, modules, functions, etc.) should be open for extension, but closed for modification.
 
+架構師根據如何、為什麼級何時發生變更來分離功能，組織元件階層。
+高層級元件受到保護，免受低層級元件的變更所影響。
