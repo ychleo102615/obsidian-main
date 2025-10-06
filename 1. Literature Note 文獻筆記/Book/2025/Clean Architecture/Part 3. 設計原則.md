@@ -131,3 +131,6 @@ OCP是糸統架構背後的推動力之一。目標是使系統易於擴展而�
 >     view["view"] --> presenter["presenter"] --> controlloer["controller"] --> interactor["interactor"]
 >      database["database"] --> interactor["interactor"]
 > ```
+
+
+# Ch9. LSP Liskov 替換原則
