@@ -17,3 +17,8 @@ link: https://docs.lovable.dev/prompting/prompting-one?fbclid=IwY2xjawNQKedleHRu
 **Task:** Create a secure login page in React using Supabase (email/password auth).  
 **Guidelines:** The UI should be minimalistic, and follow Tailwind CSS conventions. Provide clear code comments for each step.  
 **Constraints:** Only modify the `LoginPage` component; do not change other pages. Ensure the final output is a working page in the Lovable editor.
+
+
+
+### 問題回顧
+Summarize the errors we encountered setting up JWT authentication and explain how we resolved them. Then, draft a prompt I could use in the future to avoid those mistakes when setting up auth.
