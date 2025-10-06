@@ -136,3 +136,31 @@ OCP是糸統架構背後的推動力之一。目標是使系統易於擴展而�
 # Ch9. LSP Liskov 替換原則
 
 ## 指導繼承的使用
+```mermaid
+classDiagram
+    class Billing {
+        +calcFee()
+    }
+    class License {
+        <<abstract>>
+        +calcFee()
+    }
+    class PersonalLicense {
+    }
+    class BusinessLicense {
+        -users
+    }
+
+    Billing --> License : uses
+    License <|-- PersonalLicense : extends
+    License <|-- BusinessLicense : extends
+```
+
+Billing的行為不以任何方式依賴於他使用的兩個子型態中的哪一個。這兩個子型態都可以替換License型態。
+
+## 正方形／矩形問題
+
+違反
+
+
+
