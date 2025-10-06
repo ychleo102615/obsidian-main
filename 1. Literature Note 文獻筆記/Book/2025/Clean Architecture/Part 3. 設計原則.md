@@ -172,5 +172,11 @@ Java-style 的介面，回應相同 REST 介面的一組服務，LSP 都是適�
 
 ## 違反 LSP 的案例
 
+REST uri 相關的命名不一樣時，可能就需要加：
+```java
+if (driver.getDispatchUri().startsWith("acme.com")) ...
+```
+這是不可被允許的。
+
 ## 總結
 LSP 可以也應該擴展到架構層面。簡單地違反可替代性，就會導致系統的架構，受到大量的額外機制的污染。
