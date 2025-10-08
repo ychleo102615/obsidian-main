@@ -100,6 +100,11 @@ state
 
 只要Value Object是不可變的，管理就會變得簡單。因為你只能替換整體來修改它。
 
+##### 透過 Value Object 來優化資料庫
+如果物件被許多物件引用，可能需要額外的物理操作來取得資料。
+藉由複製，將這種作為很多Entity屬性的value object儲存在entity所在同一分頁。
+儲存相同資料的多個副本技術，被稱為非規範化 denormalization。
+
 #### 設計包含Value Object的關聯
 雙向關聯完全沒有意義。如果有這個需要，或許不應定義它為Value Object。
 
