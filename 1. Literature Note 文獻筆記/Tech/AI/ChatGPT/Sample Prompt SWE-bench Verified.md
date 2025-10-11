@@ -2,9 +2,12 @@
 tags: []
 date: 2025-10-11
 time: 15:26
+link: https://cookbook.openai.com/examples/gpt4-1_prompting_guide
 ---
 
-```
+
+
+```python
 """
 You will be tasked to fix an issue from an open-source repository.
 
