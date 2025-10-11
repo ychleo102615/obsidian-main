@@ -54,7 +54,7 @@ time: 14:47
 17. [x] [[150. Evaluate Reverse Polish Notation]]
 18. [x] [[151. Reverse Words in a String]]
 19. [x] [[166. Fraction to Recurring Decimal]]
-20. [ ] [[179. Largest Number]]
+20. [x] [[179. Largest Number]]
 21. [x] [[200. Number of Islands]]
 22. [x] [[207. Course Schedule]]
 23. [x] [[208. Implement Trie (Prefix Tree)]]
