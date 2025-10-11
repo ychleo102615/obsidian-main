@@ -8,7 +8,9 @@ link: https://cookbook.openai.com/examples/gpt4-1_prompting_guide
 
 
 ```python
-"""
+請參考我給你的範例提示，改寫用途為：「」
+
+範例提示："""
 You will be tasked to fix an issue from an open-source repository.
 
 Your thinking should be thorough and so it's fine if it's very long. You can think step by step before and after each action you decide to take.
