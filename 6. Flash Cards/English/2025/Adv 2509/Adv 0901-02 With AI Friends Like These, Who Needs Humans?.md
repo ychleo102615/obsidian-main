@@ -2,9 +2,9 @@
 tags:
   - flash-cards
   - Engslish-flash-card
-date: {{date}}
-time: {{time}}
+date: 2025-10-18
+time: 09:23
 cards-deck: 英文
 ---
 
-#  #card 
+# disconcert #card 
