@@ -21,3 +21,4 @@ hinder 阻礙、妨礙、限制
 harness 駕馭
 
 boil down 歸結爲
+
