@@ -50,12 +50,12 @@ GDP dulled natural navigation abilities
 
 # confidant #card  
 知己，心腹  
-[com-, intensive prefix or "with, together,"](com-,%20intensive%20prefix%20or%20"with,%20together,".md) + fid（信任）→ 共同信任的人  
-[bheidh- "to trust, confide, persuade"](bheidh-%20"to%20trust,%20confide,%20persuade".md)
+[com-, intensive prefix or "with, together,"](com-,%20intensive%20prefix%20or%20"with,%20together,".md) + [bheidh- "to trust, confide, persuade"](bheidh-%20"to%20trust,%20confide,%20persuade".md)）→ 共同信任的人  
 
 # entice #card  
-引誘，誘惑  
-字根：en-（使）+ titiare（拉扯，引誘，拉動）→ 引誘  
+引誘，誘惑 ，慫恿
+字根：[[en- em- in-  "in; into,"]] + titiare（拉扯，引誘，拉動）→ 引誘  
+
 
 # dull #card  
 遲鈍的，乏味的；使遲鈍  
