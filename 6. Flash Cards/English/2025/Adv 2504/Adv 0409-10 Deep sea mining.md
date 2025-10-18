@@ -1,5 +1,7 @@
 ---
-tags: flash-cards, Engslish-flash-card
+tags:
+  - flash-cards
+  - Engslish-flash-card
 date: 2025-03-30
 time: 20:19
 cards-deck: 英文
