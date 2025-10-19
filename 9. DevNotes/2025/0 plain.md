@@ -15,5 +15,7 @@ layout: doc
 用 spec-kit 下來的體驗是，相比以往慢慢與 ai 對話的方式 vibe coding ，spec-kit 可預期化很多。
 但是仍然不完美。
 
+對於工程稱，使用 vibe coding 應該要有一個守則：不要用你不了解的程式碼。
+
 以今天的使用感想來說：
 1. 
