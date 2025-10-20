@@ -182,7 +182,10 @@ if (driver.getDispatchUri().startsWith("acme.com")) ...
 LSP 可以也應該擴展到架構層面。簡單地違反可替代性，就會導致系統的架構，受到大量的額外機制的污染。
 
 
-# 
+# Ch.10 ISP 介面隔離原則
+
+User1, User2, User3 共同依賴著 OPS 的話，OPS 中的任一方法修改了，會連帶影響到所有依賴 OPS 的元件。
+用介面隔離 +op1, +op2, +op3 ，就不會因為一個方法改了，就影響所有 User1, User2, User3 都要重新編譯。
 
 # Ch.11 DIP 依賴反向原則
 我們想要避免依賴系統中 **最容易變化** 的具體元素。
