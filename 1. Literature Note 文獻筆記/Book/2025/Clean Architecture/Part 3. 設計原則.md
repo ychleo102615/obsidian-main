@@ -202,3 +202,29 @@ User1, User2, User3 共同依賴著 OPS 的話，OPS 中的任一方法修改了
 - 不要改寫（override）具體函式。你不會消除依賴。你繼承了他們。
 
 ## 工廠
+```mermaid
+classDiagram
+    class Application {
+    }
+
+    class Service {
+    }
+
+    class ServiceFactory {
+        + makeSvc()
+    }
+
+    class ServiceFactoryImpl {
+        + makeSvc()
+    }
+
+    class ConcreteImpl {
+    }
+
+    Application --> Service : 使用
+    Application --> ServiceFactory : 透過
+    ServiceFactory <|-- ServiceFactoryImpl
+    ServiceFactoryImpl --> ConcreteImpl : <<creates>>
+    ConcreteImpl --> Service : 實作
+```
+
