@@ -228,3 +228,4 @@ classDiagram
     ConcreteImpl --> Service : 實作
 ```
 
+ServiceFactoryImpl作為ServiceFactory型態的全域變數。Application透過該全域變數存取工廠。
