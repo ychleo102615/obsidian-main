@@ -10,6 +10,10 @@ layout: doc
 
 <DocDate :date="$frontmatter.date" />
 
+[[2025-10-23|2025-10-23 Thu, 22:54]]
+
+claude code 使用 tailwind 總是偏好 v3 ，安裝時常常會自動裝 v4 。所以使用時，最好先聲明要使用哪一個版本。
+
 [[2025-10-22|2025-10-22 Wed, 11:19]]
 
 #### 事件分類
