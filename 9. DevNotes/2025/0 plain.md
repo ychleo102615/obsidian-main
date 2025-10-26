@@ -15,6 +15,7 @@ layout: doc
 通常內容物的高度是隨著子元素的內容決定，所以可能是這樣用：
 ```css
 height: auto;
+height: calc-size(auto);
 ```
 但是當我們要做動畫的時候，transition 無法處理 auto。
 
