@@ -19,6 +19,13 @@ height: calc-size(auto);
 ```
 但是當我們要做動畫的時候，transition 無法處理 auto。
 
+CSS 的老問題：無法動畫 height: auto
+
+  問題根源：
+  - CSS 動畫需要起點數值和終點數值
+  - auto 不是數值，是"由內容決定"
+  - 瀏覽器無法計算從 0 到 auto 的中間值
+  
   "Grid Template Rows Animation Technique" 或
   "CSS Grid fr Unit Transition"
 
@@ -27,6 +34,8 @@ height: calc-size(auto);
   - "The Grid Trick" 🎯
   - "Grid Collapse Hack"
   - "Animating to Auto Height" (解決的問題)
+
+可以參考的[影片](https://www.youtube.com/watch?v=B_n4YONte5A)
 
 [[2025-10-23|2025-10-23 Thu, 22:54]]
 
