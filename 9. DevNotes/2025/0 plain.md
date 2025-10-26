@@ -26,14 +26,13 @@ CSS 的老問題：無法動畫 height: auto
   - auto 不是數值，是"由內容決定"
   - 瀏覽器無法計算從 0 到 auto 的中間值
   
-  "Grid Template Rows Animation Technique" 或
-  "CSS Grid fr Unit Transition"
-
-  社群俗稱
-
-  - "The Grid Trick" 🎯
-  - "Grid Collapse Hack"
-  - "Animating to Auto Height" (解決的問題)
+  這個技巧可以稱為：
+  ###### 📛 正式名稱
+  "CSS Grid Template Rows Animation Technique"
+  ##### 🎯 簡稱
+  "The Grid Trick" 或 "fr Unit Animation"
+  ##### 🔧 解決的問題
+  "Animating to Auto Height" (動畫化自動高度)
 
 可以參考的[影片](https://www.youtube.com/watch?v=B_n4YONte5A)
 
