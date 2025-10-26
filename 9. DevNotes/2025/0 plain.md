@@ -9,6 +9,23 @@ layout: doc
 # 流水帳
 
 <DocDate :date="$frontmatter.date" />
+[[2025-10-26|2025-10-26 Sun, 23:46]]
+
+現在的使用場景是在做一個 accordion（手風琴）式的動畫。
+通常內容物的高度是隨著子元素的內容決定，所以可能是這樣用：
+```css
+height: auto;
+```
+但是當我們要做動畫的時候，transition 無法處理 auto。
+
+  "Grid Template Rows Animation Technique" 或
+  "CSS Grid fr Unit Transition"
+
+  社群俗稱
+
+  - "The Grid Trick" 🎯
+  - "Grid Collapse Hack"
+  - "Animating to Auto Height" (解決的問題)
 
 [[2025-10-23|2025-10-23 Thu, 22:54]]
 
