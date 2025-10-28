@@ -9,6 +9,10 @@ layout: doc
 # 流水帳
 
 <DocDate :date="$frontmatter.date" />
+[[2025-10-28|2025-10-28 Tue, 15:16]]
+implement 時，指令中沒有只是去看 spec.md ，有些資訊會漏掉。
+我的情境中，在 spec.md 指定使用英文，但是在後續 implement 的時候，都會自己變成
+
 [[2025-10-26|2025-10-26 Sun, 23:46]]
 
 現在的使用場景是在做一個 accordion（手風琴）式的動畫。
