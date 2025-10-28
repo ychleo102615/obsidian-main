@@ -11,7 +11,7 @@ layout: doc
 <DocDate :date="$frontmatter.date" />
 [[2025-10-28|2025-10-28 Tue, 15:16]]
 implement 時，指令中沒有只是去看 spec.md ，有些資訊會漏掉。
-我的情境中，在 spec.md 指定使用英文，但是在後續 implement 的時候，都會自己變成
+我的情境中，在 spec.md 指定使用英文，但是在後續 implement 的時候，都會自己變回中文。
 
 [[2025-10-26|2025-10-26 Sun, 23:46]]
 
