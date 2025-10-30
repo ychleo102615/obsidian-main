@@ -10,6 +10,6 @@ cards-deck: 英文
 # faculty #card 
 （大學的）院系；全體教職員；能力，天賦、官能
 源自拉丁語 facultas（能力，才能，權力）→ 能力或權限 → 延伸為學院或教職員
-例句：She has a remarkable faculty for languages.^1761812801778
+例句：She has a remarkable faculty for languages.
 （她有學習語言的非凡天賦。）
-
+^1761812801778
