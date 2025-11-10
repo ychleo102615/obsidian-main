@@ -59,7 +59,7 @@ time: 14:47
 22. [x] [[207. Course Schedule]]
 23. [x] [[208. Implement Trie (Prefix Tree)]]
 24. [x] [[215. Kth Largest Element in an Array]]
-25. [ ] [[236. Lowest Common Ancestor of a Binary Tree]]
+25. [x] [[236. Lowest Common Ancestor of a Binary Tree]]
 26. [x] [[300. Longest Increasing Subsequence]]
 27. [ ] [[328. Odd Even Linked List]]
 28. [x] [[338. Counting Bits]]
