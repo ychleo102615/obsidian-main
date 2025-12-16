@@ -35,3 +35,7 @@ cards-deck: 英文
 a-（在）+ broad（寬廣的）→ 在寬廣處 → 在國外  
 例句：He studied abroad for three years.（他在國外留學三年。）
 ^1761746751021
+
+# reflex #card
+反射；反應能力
+to bend back
