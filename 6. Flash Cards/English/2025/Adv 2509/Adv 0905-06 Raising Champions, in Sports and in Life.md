@@ -39,3 +39,4 @@ a-（在）+ broad（寬廣的）→ 在寬廣處 → 在國外
 # reflex #card
 反射；反應能力
 to bend back
+^1765894558200
