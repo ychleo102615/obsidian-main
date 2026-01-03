@@ -73,6 +73,5 @@ Tokyo is one of the most cosmopolitan cities in Asia.
 
 # olfactive #card
 嗅覺的、與氣味相關的  
-olēre（散發氣味）+ facere（做）→ 使感知氣味 → 嗅覺的  
+olēre（散發氣味）+ facere（做）[[dhe- "to set, put"]]→ 使感知氣味 → 嗅覺的  
 The perfumer designed an olfactive journey from fresh citrus to deep musk.
-[[dhe- "to set, put"]]
