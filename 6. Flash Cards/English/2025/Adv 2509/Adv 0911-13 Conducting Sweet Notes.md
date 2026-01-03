@@ -39,42 +39,40 @@ de bon aire（法語）= of good air → 好氣質的、舉止優雅的
 
 
 
-# petition #card
 
-請願、陳情；正式向權威提出請求 pet-（尋求、追求）+ -ition（名詞後綴）→ 向上尋求 → 請願 The lawyer petitioned the court for a retrial based on new evidence.
-
-# unison #card
-
-齊唱、齊奏；一致、同步 uni-（一）+ son-（聲音）→ 一個聲音 → 齊聲 The choir sang the final verse in unison.
-
-# coerce #card
-
-脅迫、強迫；用威脅迫使屈服 co-（完全）+ arcēre（圍住、阻擋）→ 團團圍住 → 脅迫 The witness was coerced into giving false testimony.
 
 # earnest #card
-
-認真的、誠摯的、熱切的 古英語 eornost（認真、決心），日耳曼語系詞彙 She made an earnest attempt to learn Japanese before moving to Tokyo.
+認真的、誠摯的、熱切的  
+古英語 eornost（認真、決心），日耳曼語系詞彙  
+She made an earnest attempt to learn Japanese before moving to Tokyo.
 
 # hone #card
-
-磨礪（刀刃）；精進、琢磨（技能） 古英語 hān（石頭）→ 磨刀石 → 磨礪 He spent years honing his coding skills before landing a job at a top tech company.
+磨礪（刀刃）；精進、琢磨（技能）  
+古英語 hān（石頭）→ 磨刀石 → 磨礪  
+He spent years honing his coding skills before landing a job at a top tech company.
 
 # palate #card
-
-上顎；味覺、品味能力 拉丁語 palātum（上顎）→ 味覺感受之處 → 品味 Years of wine tasting have refined his palate.
+上顎；味覺、品味能力  
+拉丁語 palātum（上顎）→ 味覺感受之處 → 品味  
+Years of wine tasting have refined his palate.
 
 # citrus #card
-
-柑橘類水果；柑橘的、柑橘味的 拉丁語 citrus（香櫞樹），可能源自希臘語 kedros The salad dressing has a bright citrus flavor from fresh lime juice.
+柑橘類水果；柑橘的、柑橘味的  
+拉丁語 citrus（香櫞樹），可能源自希臘語 kedros  
+The salad dressing has a bright citrus flavor from fresh lime juice.
 
 # oval #card
-
-橢圓形的、卵形的 ov-（蛋）+ -al（形容詞後綴）→ 像蛋的形狀 She has a beautiful oval face.
+橢圓形的、卵形的  
+ov-（蛋）+ -al（形容詞後綴）→ 像蛋的形狀  
+She has a beautiful oval face.
 
 # cosmopolitan #card
-
-世界性的、國際化的；見多識廣的 cosmo-（宇宙、世界）+ polit-（公民）→ 世界公民 Tokyo is one of the most cosmopolitan cities in Asia.
+世界性的、國際化的；見多識廣的  
+cosmo-（宇宙、世界）+ polit-（公民）→ 世界公民  
+Tokyo is one of the most cosmopolitan cities in Asia.
 
 # olfactive #card
-
-嗅覺的、與氣味相關的 olēre（散發氣味）+ facere（做）→ 使感知氣味 → 嗅覺的 The perfumer designed an olfactive journey from fresh citrus to deep musk.
+嗅覺的、與氣味相關的  
+olēre（散發氣味）+ facere（做）→ 使感知氣味 → 嗅覺的  
+The perfumer designed an olfactive journey from fresh citrus to deep musk.
+[[dhe- "to set, put"]]
