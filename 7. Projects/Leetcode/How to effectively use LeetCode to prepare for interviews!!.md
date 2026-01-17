@@ -61,7 +61,7 @@ time: 14:47
 24. [x] [[215. Kth Largest Element in an Array]]
 25. [x] [[236. Lowest Common Ancestor of a Binary Tree]]
 26. [x] [[300. Longest Increasing Subsequence]]
-27. [ ] [[328. Odd Even Linked List]]
+27. [x] [[328. Odd Even Linked List]]
 28. [x] [[338. Counting Bits]]
 29. [x] [[347. Top K Frequent Elements]]
 30. [x] [[355. Design Twitter]]
