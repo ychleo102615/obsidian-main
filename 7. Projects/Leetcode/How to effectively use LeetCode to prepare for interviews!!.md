@@ -66,7 +66,7 @@ time: 14:47
 29. [x] [[347. Top K Frequent Elements]]
 30. [x] [[355. Design Twitter]]
 31. [x] [[417. Pacific Atlantic Water Flow]]
-32. [ ] [[421. Maximum XOR of Two Numbers in an Array]]
+32. [x] [[421. Maximum XOR of Two Numbers in an Array]]
 33. [x] [[424. Longest Repeating Character Replacement]]
 34. [ ] [[454. 4Sum II]]
 35. [ ] [[529. Minesweeper]]
