@@ -8,7 +8,19 @@ time: 22:18
 
 [[2026-01-19|2026-01-19 Mon, 17:49]]
 [[658. Find K Closest Elements]]
-本題做了更多
+本題做了更多 Binary Search 本質上的討論。在我原本的觀點上強化。
+
+| 單調性模式           | 找什麼    | 建議稱呼                         | mid           |
+| --------------- | ------ | ---------------------------- | ------------- |
+| `[F F F T T T]` | 第一個 T  | **find first true** / **左界** | `mid = floor` |
+| `[T T T F F F]` | 最後一個 T | **find last true** / **右界**  | mid = ceil    |
+
+```
+leftmost_true   →  [F F F T T T]  →  mid = floor
+rightmost_true  →  [T T T F F F]  →  mid = ceil
+```
+
+---
 
 [[2025-08-09|2025-08-09 Sat, 14:37]]
 回來寫題目，發現自己感覺又沒有完全搞懂。
@@ -60,7 +72,7 @@ m = (l+r+1)//2 # m == 1
 # 關於二元搜尋法Binary Search的洞見
 
 我剛剛在解[[981. Time Based Key-Value Store]]這一題，他是分類在neetcode二元搜尋分類的題目。
-這題就一般的情況是無法使用[[lower bound upper bound]]這種BS(binary search)的。
+這題就一般的情況是無法使用[[Binary Search (lowerBound, upperBound)]]這種BS(binary search)的。
 
 我想了一下為什麼。
 
