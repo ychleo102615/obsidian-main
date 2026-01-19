@@ -1,10 +1,14 @@
 ---
-tags: 
+tags:
 date: 2024-12-13
 time: 22:18
 ---
 [lowerBound](https://en.cppreference.com/w/cpp/algorithm/lower_bound)：返回第一个**大於等於** `value` 的元素的位置，即“>= `value`”。
 [upperBound](https://en.cppreference.com/w/cpp/algorithm/upper_bound)：返回第一个**大於** `value` 的元素的位置，即“> `value`”。
+
+[[2026-01-19|2026-01-19 Mon, 17:49]]
+[[658. Find K Closest Elements]]
+本題做了更多
 
 [[2025-08-09|2025-08-09 Sat, 14:37]]
 回來寫題目，發現自己感覺又沒有完全搞懂。
