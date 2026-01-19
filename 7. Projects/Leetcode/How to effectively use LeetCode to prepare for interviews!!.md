@@ -69,7 +69,7 @@ time: 14:47
 32. [x] [[421. Maximum XOR of Two Numbers in an Array]]
 33. [x] [[424. Longest Repeating Character Replacement]]
 34. [x] [[454. 4Sum II]]
-35. [ ] [[529. Minesweeper]]
+35. [x] [[529. Minesweeper]]
 36. [ ] [[658. Find K Closest Elements]]
 37. [x] [[763. Partition Labels]]
 38. [ ] [[767. Reorganize String]]
