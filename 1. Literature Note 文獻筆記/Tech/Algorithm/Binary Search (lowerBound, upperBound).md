@@ -10,15 +10,13 @@ time: 22:18
 [[658. Find K Closest Elements]]
 本題做了更多 Binary Search 本質上的討論。在我原本的觀點上強化。
 
-| 單調性模式           | 找什麼    | 建議稱呼                         | mid           |
-| --------------- | ------ | ---------------------------- | ------------- |
-| `[F F F T T T]` | 第一個 T  | **find first true** / **左界** | `mid = floor` |
-| `[T T T F F F]` | 最後一個 T | **find last true** / **右界**  | mid = ceil    |
+##### Binary Search 的本質是單調性，不是排序
 
-```
-leftmost_true   →  [F F F T T T]  →  mid = floor
-rightmost_true  →  [T T T F F F]  →  mid = ceil
-```
+| 單調性模式           | 找什麼    | 稱呼     | 搜尋方向 | mid           |
+| --------------- | ------ | ------ | ---- | ------------- |
+| `[F F F T T T]` | 第一個 T  | **左界** | 向左   | `mid = floor` |
+| `[T T T F F F]` | 最後一個 T | **右界** | 向右   | `mid = ceil`  |
+d
 
 ---
 
