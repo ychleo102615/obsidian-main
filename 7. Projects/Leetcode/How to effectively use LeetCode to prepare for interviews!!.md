@@ -70,7 +70,7 @@ time: 14:47
 33. [x] [[424. Longest Repeating Character Replacement]]
 34. [x] [[454. 4Sum II]]
 35. [x] [[529. Minesweeper]]
-36. [ ] [[658. Find K Closest Elements]]
+36. [x] [[658. Find K Closest Elements]]
 37. [x] [[763. Partition Labels]]
 38. [ ] [[767. Reorganize String]]
 39. [ ] [[1171. Remove Zero Sum Consecutive Nodes from Linked List]]
