@@ -32,4 +32,16 @@ console.log(!1); // false
 // 常用
 console.log(!!1); // true
 console.log(!!0); // false
+
+```
+
+### 二元運算子
+
+#### + 運算子
+
+前後運算子其一為字串或物件，則視為字串運算子。否則視為算數運算子。
+```js
+console.log(1 + '句子') // "1句子"
+console.log(true + true) // 2
+console.log(1 + {}) // "1[object Object]"
 ```
