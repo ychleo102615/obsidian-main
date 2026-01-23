@@ -16,3 +16,20 @@ time: 22:52
 | **物件 vs 原始值**              | 將 **物件** 轉為 **原始值** (透過 `toString`/`valueOf`)。 |
 
 參考：轉型 [document](https://262.ecma-international.org/6.0/#sec-type-conversion)
+
+### 一元運算子
+```js
+console.log(+'1');  // 1
+console.log(+true);  // 1
+console.log(+false);  // 0
+```
+
+### 邏輯運算子
+```js
+console.log(!0); // true
+console.log(!1); // false
+
+// 常用
+console.log(!!1); // true
+console.log(!!0); // false
+```
