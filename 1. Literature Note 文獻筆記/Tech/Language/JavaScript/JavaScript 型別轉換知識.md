@@ -44,4 +44,8 @@ console.log(!!0); // false
 console.log(1 + '句子') // "1句子"
 console.log(true + true) // 2
 console.log(1 + {}) // "1[object Object]"
+console.log(1 + [1]) // 11
+console.log(1 + [1,2]) // 11,2
 ```
+
+number, BigInt ㄨ
