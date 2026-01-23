@@ -62,21 +62,19 @@ console.log(1 + [1,2]) // 11,2
 Number, BigInt 無法混合計算。
 
 
+### if()
 
-# [Truthy](https://developer.mozilla.org/en-US/docs/Glossary/Truthy)
+```javascript
+// falsy values（轉成 false 的值，共 8 個）
+false, 0, -0, 0n, "", null, undefined, NaN
+
+// 其餘都是 truthy（轉成 true）
+```
+
 
 ```js
-if (true);
-if ({});
-if ([]);
-if (42);
-if ("0");
-if ("false");
-if (new Date());
-if (-42);
-if (12n);
-if (3.14);
-if (-3.14);
-if (Infinity);
-if (-Infinity);
+if (value) { ... }
+
+// 等同於
+if (Boolean(value)) { ... }
 ```
