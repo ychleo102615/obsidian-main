@@ -10,10 +10,12 @@ time: 22:52
 | **比較對象**                   | **轉換行為**                                       |
 | -------------------------- | ---------------------------------------------- |
 | **同型別** (String vs String) | **不轉型**，直接比較值（跟 `===` 一樣）。                     |
-| **null vs undefined**      | **不轉型**，直接回傳 `true`。                           |
+| **null vs undefined**      | **不轉型**，直接回傳 `true`。與其他比較接回傳`false`            |
 | **數字 vs 字串**               | 將 **字串** 轉為 **數字**。                            |
 | **布林值 vs 其他**              | 將 **布林值** 轉為 **數字** (0 或 1)，再繼續比較。             |
 | **物件 vs 原始值**              | 將 **物件** 轉為 **原始值** (透過 `toString`/`valueOf`)。 |
+
+null, undefined 不轉型，都是 false，除了 null 與 undefined 相比會是 true。
 
 參考：轉型 [document](https://262.ecma-international.org/6.0/#sec-type-conversion)
 
