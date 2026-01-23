@@ -48,4 +48,4 @@ console.log(1 + [1]) // 11
 console.log(1 + [1,2]) // 11,2
 ```
 
-number, BigInt ㄨ
+Number, BigInt 無法混合計算。
