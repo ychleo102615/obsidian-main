@@ -17,6 +17,15 @@ time: 22:52
 
 null, undefined 不轉型，都是 false，除了 null 與 undefined 相比會是 true。
 
+
+
+```js
+console.log([] == 0) // true
+console.log(Number([].toString())) // 0
+console.log([1] == 1) // true
+console.log([1,2] == 12) // false
+```
+
 參考：轉型 [document](https://262.ecma-international.org/6.0/#sec-type-conversion)
 
 ### 一元運算子
