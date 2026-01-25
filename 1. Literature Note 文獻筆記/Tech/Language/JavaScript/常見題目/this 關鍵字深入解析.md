@@ -21,9 +21,9 @@ bind 回傳包裝好的函式。
 
 
 
+### 題目
 
-
-
+##### 箭頭函式
 
 ```js
 const obj = {
@@ -36,4 +36,80 @@ const obj = {
 obj.greet();
 ```
 
+ 輸出什麼？
+ 
+---
+
+```js
+obj.greet();  // "" 或 undefined，不是 "Leo"
+```
+
+**關鍵：箭頭函式沒有自己的 `this`，捕捉的是「定義時」外層作用域的 `this`。**
+
+物件字面量 `{}` **不會創建作用域**，所以這個箭頭函式定義在全域，`this` 是全域物件。
+
+
+##### 巢狀函式
+
+```js
+const obj = {
+  name: "Leo",
+  greet: function() {
+    function inner() {
+      console.log(this.name);
+    }
+    inner();
+  }
+};
+
+obj.greet();
+```
+
 輸出什麼？
+
+---
+
+
+```js
+inner();  // "" 或 TypeError，不是 "Leo"
+```
+
+**`inner()` 是獨立調用**，不是 `obj.inner()`，所以 `this` 不是 `obj`。
+
+這是經典陷阱：**巢狀在方法裡的普通函式，`this` 不會繼承外層。**
+
+##### ## setTimeout
+
+```js
+const obj = {
+  name: "Leo",
+  greet: function() {
+    setTimeout(function() {
+      console.log(this.name);
+    }, 100);
+  }
+};
+
+obj.greet();
+```
+
+輸出什麼？如果要讓它正確印出 `"Leo"`，有哪些改法？
+
+
+```js
+// 改法 1：箭頭函式
+setTimeout(() => {
+  console.log(this.name);
+}, 100);
+
+// 改法 2：bind
+setTimeout(function() {
+  console.log(this.name);
+}.bind(this), 100);
+
+// 改法 3：保存 this
+const self = this;
+setTimeout(function() {
+  console.log(self.name);
+}, 100);
+```
