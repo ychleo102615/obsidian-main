@@ -78,7 +78,7 @@ inner();  // "" 或 TypeError，不是 "Leo"
 
 這是經典陷阱：**巢狀在方法裡的普通函式，`this` 不會繼承外層。**
 
-##### ## setTimeout
+##### setTimeout
 
 ```js
 const obj = {
@@ -94,6 +94,8 @@ obj.greet();
 ```
 
 輸出什麼？如果要讓它正確印出 `"Leo"`，有哪些改法？
+
+---
 
 
 ```js
@@ -113,3 +115,31 @@ setTimeout(function() {
   console.log(self.name);
 }, 100);
 ```
+
+
+##### bind 陷阱
+
+```js
+const obj = {
+  name: "Leo"
+};
+
+function greet() {
+  console.log(this.name);
+}
+
+const bound = greet.bind(obj);
+const bound2 = bound.bind({ name: "Alice" });
+
+bound2();
+```
+
+---
+
+```js
+bound2();  // "Leo"，不是 "Alice"
+```
+
+**`bind` 只能綁定一次，後續再 `bind` 無效。**
+
+這是 `bind` 的特性：回傳的函式 `this` 已經被「鎖死」，無法再被 `bind` / `call` / `apply` 改變。
