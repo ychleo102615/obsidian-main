@@ -17,3 +17,17 @@ link: https://brucefe.com/zh-tw/frontend-interview-prepare/promise-async-await
 - 切換時觸發對應的 callback
 
 ### all, race 區別
+
+
+
+
+
+```js
+async function example() {
+	return "Hello"
+}
+// 等價於
+function example() {
+	return Promise.resolve("Hello")
+}
+```
