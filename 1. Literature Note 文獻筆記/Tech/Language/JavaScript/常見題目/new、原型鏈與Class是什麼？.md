@@ -47,7 +47,15 @@ Object.create(prototype) // 比 new 更直接
 
 ### 私有變數
 
+##### ES2022
 ```js
 class BankAccount {
-#}
+	#balance = 0 // Private field
+}
 ```
+
+### 常見面試題目
+
+#### new 關鍵字做了什麼
+1. 建立新的空物件
+2. 指定 `__proto__`
