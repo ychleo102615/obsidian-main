@@ -5,6 +5,18 @@ time: 00:07
 link: https://brucefe.com/zh-tw/frontend-interview-prepare/promise-async-await
 ---
 
+## 為何需要 Promise？Why Do We Need Promises?
+
+#####  Promise 解決了傳統回調函式的多個問題，提供了更優雅的非同步處理方式：
+ 
+`避免回調地獄`：解決巢狀回調導致的程式碼難以維護問題
+`Avoiding callback hell`: Solves code maintainability issues caused by nested callbacks
+`統一錯誤處理`：使用 catch 方法統一處理錯誤
+`Unified error handling`: Using the catch method to handle errors uniformly
+`鏈式調用`：通過 then 方法實現清晰的流程控制
+`Chaining`: Implementing clear flow control through the then method
+`更好的語義化`：Promise 的狀態轉換更符合程式設計直覺
+`Better semantics`: Promise state transitions are more intuitive for programming
 
 
 ### 考題
