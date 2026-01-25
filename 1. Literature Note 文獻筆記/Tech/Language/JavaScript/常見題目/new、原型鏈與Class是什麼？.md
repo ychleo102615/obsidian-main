@@ -58,4 +58,21 @@ class BankAccount {
 
 #### new 關鍵字做了什麼
 1. 建立新的空物件
-2. 指定 `__proto__`
+2. 指定物件 `__proto__` 屬性為函式 `prototype` 屬性
+3. 綁定 this
+4. 執行函式
+5. 如果函式沒有返回對象，回傳新創建的物件
+
+```js
+function myNew(Constructor, ...args) {
+	let obj = Object.create(Constructor)
+
+	// 錯誤，沒有綁定
+	// let ret = Constructor(args)
+	
+	// 執行構造函數，並將 this 指向新創建的物件
+	let ret = Constructor.apply(ret, args)
+	
+	return ret instanceof Object ? ret : obj
+}
+```
