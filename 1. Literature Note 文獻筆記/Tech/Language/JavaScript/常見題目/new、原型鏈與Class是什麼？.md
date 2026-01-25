@@ -31,3 +31,23 @@ dog1.bark();
 
 console.log(dog1.__proto__ === Dog.prototype) // true
 ```
+
+
+### 代替 `__proto__` 的方法
+
+```js
+Object.getPrototypeOf(obj) // obj.__proto__
+
+Object.setPrototypeOf(obj, prototype)// obj.__proto__ = prototype
+
+// 創建帶有指定圓形的新物件
+Object.create(prototype) // 比 new 更直接
+```
+
+
+### 私有變數
+
+```js
+class BankAccount {
+#}
+```
