@@ -18,3 +18,22 @@ call 跟 apply 幾乎一樣，差別在參數給予的方式。
 bind 回傳包裝好的函式。 
 
 哪些狀況適合使用 bind？
+
+
+
+
+
+
+
+```js
+const obj = {
+  name: "Leo",
+  greet: () => {
+    console.log(this.name);
+  }
+};
+
+obj.greet();
+```
+
+輸出什麼？
