@@ -22,6 +22,11 @@ function debounce(fn, delay) {
 ```js
 function throttle(fn, interval) {
 	let lastTime = null
-	return function() {}
+	return function(...args) {
+		if (lastTime && new Date() - lastTime < interval) {
+			return
+		}
+		fn.apply(this, args)
+	}
 }
 ```
