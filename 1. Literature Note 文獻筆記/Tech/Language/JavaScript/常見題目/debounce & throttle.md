@@ -27,6 +27,14 @@ function throttle(fn, interval) {
 			return
 		}
 		fn.apply(this, args)
+		lastTime = new Date()
+	}
+}
+
+function throttle(fn, interval) {
+	let lastTime = 0
+	return function(...args) {
+		cons
 	}
 }
 ```
