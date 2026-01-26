@@ -8,10 +8,10 @@ time: 22:52
 function debounce(fn, delay) {
 	let timer = null
 	return function(...args) {
-		// null 也不會報錯
+		// null, 無效 id 也不會出錯
 		clearTimeout(timer)
 		timer = setTimeout(function(){
-			timer = null
+			// timer = null 
 			fn.apply(this, args)
 		}, delay)
 	}
@@ -34,7 +34,13 @@ function throttle(fn, interval) {
 function throttle(fn, interval) {
 	let lastTime = 0
 	return function(...args) {
-		cons
+		const now = new Date()
+		if (now - lastTime >= interval) {
+			fn.apply(this, args)
+			lastTime = now
+		}
 	}
 }
 ```
+
+Vue 最常用 `watchDebouncedf`
