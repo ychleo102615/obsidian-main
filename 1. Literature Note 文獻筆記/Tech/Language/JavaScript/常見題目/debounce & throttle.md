@@ -43,4 +43,31 @@ function throttle(fn, interval) {
 }
 ```
 
-Vue 最常用 `watchDebouncedf`
+Vue
+```js
+import { watchDebounced } from '@vueuse/core'
+
+const keyword = ref('')
+
+watchDebounced(
+  keyword,
+  (value) => {
+    console.log('搜尋:', value)
+  },
+  { debounce: 300 }
+)
+```
+
+```js
+import { watchThrottled } from '@vueuse/core'
+
+const scrollY = ref(0)
+
+watchThrottled(
+  scrollY,
+  (value) => {
+    console.log('位置:', value)
+  },
+  { throttle: 100 }
+)
+```
