@@ -96,3 +96,110 @@ function example() {
 	return Promise.resolve("Hello")
 }
 ```
+
+
+---
+
+[[2026-02-01|2026-02-01 Sun, 23:51]]
+
+實作 promise
+
+```js
+const PENDING = 'pending';
+const FULFILLED = 'fulfilled';
+const REJECTED = 'rejected';
+
+class MyPromise {
+  state = PENDING;
+  resolveListeners = [];
+  rejectListeners = [];
+  value = null;
+  reason = null;
+
+  constructor(executor) {
+    const reject = (reason) => {
+      if (this.state === PENDING) {
+        this.state = REJECTED;
+        this.reason = reason;
+        queueMicrotask(() => {
+          this.rejectListeners.forEach((callback) => {
+            callback(reason);
+          })
+        });
+      }
+    }
+
+    const resolve = (value) => {
+      if (this.state === PENDING) {
+        if (value instanceof MyPromise) {
+          value.then(resolve, reject)
+          return
+        }
+        this.state = FULFILLED;
+        this.value = value;
+        queueMicrotask(() => {
+          this.resolveListeners.forEach((callback) => {
+            callback(value);
+          })
+        });
+      }
+    }
+
+    executor(resolve, reject)
+  }
+
+  then(onFulfilled, onRejected) {
+    onFulfilled = typeof onFulfilled === 'function' ? onFulfilled : value => value
+    onRejected = typeof onRejected === 'function' ? onRejected : error => { throw error }
+
+    if (this.state === FULFILLED) {
+      return new MyPromise((resolve, reject) => {
+        queueMicrotask(() => {
+          try {
+            resolve(onFulfilled(this.value))
+          } catch(error) {
+            reject(error)
+          }
+        })
+      })
+    }
+
+    if (this.state === REJECTED) {
+      return new MyPromise((resolve, reject) => {
+        queueMicrotask(() => {
+          try {
+            resolve(onRejected(this.reason))
+          } catch(error) {
+            reject(error)
+          }
+        })
+      })
+    }
+
+    if (this.state === PENDING) {
+      return new MyPromise((resolve, reject) => {
+        this.resolveListeners.push(() => {
+          try {
+            resolve(onFulfilled(this.value))
+          } catch(error) {
+            reject(error)
+          }
+        })
+
+        this.rejectListeners.push(() => {
+          try {
+            resolve(onRejected(this.reason))
+          } catch(error) {
+            reject(error)
+          }
+        })
+      })
+    }
+  }
+
+  catch(onRejected) {
+    return this.then(null, onRejected)
+  }
+}
+
+```
