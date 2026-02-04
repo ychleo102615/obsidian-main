@@ -10,7 +10,7 @@ link: https://github.com/Admol/SystemDesign/blob/main/CHAPTER%2002：BACK-OF-THE
 
 ![500](https://github.com/Admol/SystemDesign/raw/main/images/chapter2/table2-1.png)
 
-# ### 每个程序员都应该了解的延迟数据 Latency numbers every programmer should know
+# 每个程序员都应该了解的延迟数据 Latency numbers every programmer should know
 
 Google的Dean博士在2010年透露了典型计算机操作的时间。 随着计算机变得更快更强大，一些数字已经过时。然而，这些数字仍然应该能够让我们了解不同计算机操作的速度和慢速。
 
