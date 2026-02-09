@@ -12,4 +12,5 @@ link: https://web.dev/articles/rendering-on-the-web
 
 ### static rendering vs prerendering
 前者沒有 javascript 也能夠正常運作，後者的情況，大部分的功能會變得 [[inert]] 。
-他們都算是 static site generation。
+~~他們都算是 static site generation。~~
+
