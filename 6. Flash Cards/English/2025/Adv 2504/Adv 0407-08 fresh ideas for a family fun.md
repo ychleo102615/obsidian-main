@@ -27,7 +27,7 @@ from [[pan- "all"]] + _dēmos_ "people" (see [demotic](https://www.etymonline.
 ^1743686785432
 
 
-#  Skim #card 
+#  skim #card 
 略讀、瀏覽； 撇去（液體表面的浮物）； 掠過（如石頭掠過水面）
 與液體表面的反光或漂浮物視覺效果有關，延伸出「撇去液體上層物質」的意象。
 ^1743686785434
