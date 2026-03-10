@@ -80,38 +80,34 @@ chat 環境使用 `Filesystem:search_files`。
 
 **1. Obsidian CLI（最優先）**
 
-分兩步：用 template 建立檔案骨架，再 append 卡片內容。
+⚠️ **重要**：路徑含 `/` 時必須用 `path=` 而非 `name=`。`name=` 只適用於不含子目錄的純檔名。
+
+分兩步：用 template 建立檔案骨架（取得正確 frontmatter），再修正標題行並 append 卡片內容。
 
 ```bash
-# Step A: 用 template 建立（Obsidian 自動填充 frontmatter 的 date/time）
+# Step A: 用 template 建立骨架（path= 為相對於 vault 的路徑，不含 .md）
 obsidian create \
-  name="${WORD_BASE}/{年份}/{來源或misc}/{word}" \
+  path="${WORD_BASE}/{年份}/{來源或misc}/{word}" \
   template="${TEMPLATE}"
 
-# Step B: append 卡片內容（注意：template 已產生 `#  #card ` 行，需先修正為帶單字的版本）
+# Step B: 驗證檔案確實存在（CLI 即使報錯也可能回傳 exit 0）
+if [ ! -f "${VAULT}/${WORD_BASE}/{年份}/{來源或misc}/{word}.md" ]; then
+  echo "❌ obsidian create 失敗，改用 bash 寫入"
+  # → 改走 bash fallback
+fi
+
+# Step C: 讀取 template 內容，修正空白標題行
+CONTENT=$(obsidian read file="${WORD_BASE}/{年份}/{來源或misc}/{word}")
+echo "$CONTENT" | sed "s/^#  #card /# {word} #card /" \
+  > "${VAULT}/${WORD_BASE}/{年份}/{來源或misc}/{word}.md"
+
+# Step D: append 卡片內容
 obsidian append \
   file="${WORD_BASE}/{年份}/{來源或misc}/{word}" \
   content="{卡片內容}"
 ```
 
-`name=` 和 `file=` 的值是**相對於 vault 根目錄的路徑，不含 `.md` 後綴**。
-
-⚠️ template 產生的標題行是 `#  #card `（空白），需要透過 bash sed 或其他方式替換成 `# {word} #card  `。可先 create，再用 `obsidian read` 讀取內容，用 bash 處理後 `obsidian write` 回去。或者直接不用 template 的標題行，改用完整的 bash 寫入。
-
-**如果 template 的標題行處理過於複雜**，可以改用以下簡化方案：
-```bash
-# 只用 template 建骨架（取得 frontmatter）
-obsidian create name="${WORD_BASE}/{年份}/{來源或misc}/{word}" template="${TEMPLATE}"
-
-# 讀取 template 產生的內容
-CONTENT=$(obsidian read file="${WORD_BASE}/{年份}/{來源或misc}/{word}")
-
-# 用 sed 替換空白標題行，加入單字名稱
-echo "$CONTENT" | sed "s/^#  #card/#  ${word} #card/" > "${VAULT}/${WORD_BASE}/{年份}/{來源或misc}/{word}.md"
-
-# append 卡片內容
-obsidian append file="${WORD_BASE}/{年份}/{來源或misc}/{word}" content="{卡片內容}"
-```
+`path=` 和 `file=` 的值是**相對於 vault 根目錄的路徑，不含 `.md` 後綴**。
 
 **2. bash cat/echo（Obsidian CLI 不可用時）**
 
@@ -186,14 +182,21 @@ Claude 只需 append 以下內容：
 {例句（不附中文翻譯）}  
 ```
 
-使用 bash 或 MCP 時，需寫入完整內容含 frontmatter：
+使用 bash 或 MCP 時，需寫入完整內容含 frontmatter。**date 和 time 必須用 bash 動態取得**：
+
+```bash
+CARD_DATE=$(date "+%Y-%m-%d")
+CARD_TIME=$(date "+%H:%M")
+```
+
+然後寫入：
 ```
 ---
 tags:
   - flash-cards
   - Engslish-flash-card
-date: {YYYY-MM-DD}
-time: {HH:mm}
+date: {CARD_DATE}
+time: {CARD_TIME}
 cards-deck: 英文
 ---
 
