@@ -80,34 +80,33 @@ chat 環境使用 `Filesystem:search_files`。
 
 **1. Obsidian CLI（最優先）**
 
-⚠️ **重要**：路徑含 `/` 時必須用 `path=` 而非 `name=`。`name=` 只適用於不含子目錄的純檔名。
-
-分兩步：用 template 建立檔案骨架（取得正確 frontmatter），再修正標題行並 append 卡片內容。
+⚠️ **已知限制**：`path=` 和 `name=` 參數無法處理含空格的路徑（CLI 內部解析器會截斷）。
+**繞路方案**：先用純檔名（無子路徑）在 vault root 建立，再用 bash `mv` 移到目標位置，最後用 `file=` wikilink 解析 append 內容。
 
 ```bash
-# Step A: 用 template 建立骨架（path= 為相對於 vault 的路徑，不含 .md）
-obsidian create \
-  path="${WORD_BASE}/{年份}/{來源或misc}/{word}" \
-  template="${TEMPLATE}"
+# Step A: 用純檔名建立（不含路徑，避免空格問題）
+obsidian create name={word} 'template={TEMPLATE}'
 
-# Step B: 驗證檔案確實存在（CLI 即使報錯也可能回傳 exit 0）
-if [ ! -f "${VAULT}/${WORD_BASE}/{年份}/{來源或misc}/{word}.md" ]; then
+# Step B: 驗證檔案確實建立
+if [ ! -f "${VAULT}/{word}.md" ]; then
   echo "❌ obsidian create 失敗，改用 bash 寫入"
   # → 改走 bash fallback
 fi
 
-# Step C: 讀取 template 內容，修正空白標題行
-CONTENT=$(obsidian read file="${WORD_BASE}/{年份}/{來源或misc}/{word}")
-echo "$CONTENT" | sed "s/^#  #card /# {word} #card /" \
-  > "${VAULT}/${WORD_BASE}/{年份}/{來源或misc}/{word}.md"
+# Step C: 修正空白標題行（template 產生 `#  #card`）
+sed -i '' 's/^#  #card/# {word} #card/' "${VAULT}/{word}.md"
 
-# Step D: append 卡片內容
-obsidian append \
-  file="${WORD_BASE}/{年份}/{來源或misc}/{word}" \
-  content="{卡片內容}"
+# Step D: 移動到正確位置
+mv "${VAULT}/{word}.md" "${VAULT}/${WORD_BASE}/{年份}/{來源或misc}/{word}.md"
+
+# Step E: append 卡片內容（file= 用 wikilink 解析，自動找到移動後的檔案）
+obsidian append file={word} content='{卡片內容}'
 ```
 
-`path=` 和 `file=` 的值是**相對於 vault 根目錄的路徑，不含 `.md` 後綴**。
+**注意**：
+- template 含空格時需用單引號包住整個參數：`'template=4. English flash card'`
+- `file=` 使用 wikilink 解析，不受路徑影響，可在 `mv` 後直接使用
+- content 含空格時同樣需用單引號包住：`'content=...'`
 
 **2. bash cat/echo（Obsidian CLI 不可用時）**
 
