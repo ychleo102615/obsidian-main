@@ -194,8 +194,8 @@ obsidian create \
 所有卡片建立完成後，執行同步：
 
 ```bash
-# 檢查 Anki 是否開啟
-if ! pgrep -x "Anki" > /dev/null; then
+# 檢查 Anki 是否開啟（macOS 上 Anki 以 Python 執行，需用 aqt.run 偵測）
+if ! ps aux | grep -i "[a]qt.run" > /dev/null; then
   echo "⚠️ Anki 未開啟"
 fi
 ```
