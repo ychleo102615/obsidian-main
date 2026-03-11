@@ -130,7 +130,7 @@ obsidian append file={word} content='{卡片內容}'
 ```
 
 **注意**：
-- template 含空格時需用單引號包住整個參數：`'template=4. English flash card'`
+- template 含空格時需用單引號包住整個參數：`'template={TEMPLATE}'`
 - `file=` 使用 wikilink 解析，不受路徑影響，可在 `mv` 後直接使用
 - content 含空格時同樣需用單引號包住：`'content=...'`
 
@@ -183,11 +183,41 @@ obsidian create \
   content="{字根卡內容}"
 ```
 
-### 步驟 6：回報結果
+### 步驟 6：同步到 Anki
+
+所有卡片建立完成後，執行同步：
+
+```bash
+# 檢查 Anki 是否開啟
+if ! pgrep -x "Anki" > /dev/null; then
+  echo "⚠️ Anki 未開啟"
+fi
+```
+
+- **Anki 未開啟** → 告知使用者，並詢問：「要開啟 Anki 並同步，還是跳過？」
+  - 選擇開啟 → `open -a Anki`，等候使用者確認後繼續同步
+  - 選擇跳過 → 略過，提醒之後手動同步
+- **Anki 已開啟** → 直接同步：
+
+```bash
+# 切換到目標檔案（command 作用在 active file）
+obsidian open 'path={WORD_BASE}/{年份}/{來源}/{word}.md'
+sleep 1
+obsidian command id=flashcards-obsidian:generate-flashcard-current-file
+echo "✅ 已同步到 Anki：{word}"
+```
+
+**注意**：
+- `obsidian open path=` 同樣有空格問題，需用單引號包住
+- `sleep 1` 確保 Obsidian 切換完成後再執行指令
+- 主題檔案情境：open 該主題檔案，執行一次即可同步所有卡片
+
+### 步驟 7：回報結果
 
 告訴使用者：
 - ✅ 建立了哪些檔案
 - ⏭️ 哪些字根卡已存在跳過
+- ✅ / ⚠️ Anki 同步狀態
 - ⚠️ 任何錯誤
 - 使用了哪種寫入方式
 
