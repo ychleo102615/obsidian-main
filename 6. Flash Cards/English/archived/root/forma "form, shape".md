@@ -1,0 +1,1 @@
+Latin *forma* "form, shape, figure, image"; origin uncertain, possibly from PIE *bher- "to bear, carry" or related to Greek morphe. (see [forma](https://www.etymonline.com/word/form#etymonline_v_16347))
