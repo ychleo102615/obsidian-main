@@ -21,7 +21,13 @@ Fallback：Claude.ai chat（透過 Filesystem MCP 工具）。
 
 ## Phase 1：單字解說
 
-1. **查詢 etymonline**：用 `web_search` 搜尋 `{word} etymology etymonline`
+1. **查詢 etymonline**：直接構造 URL `https://www.etymonline.com/word/{word}`，用 `WebFetch` 抓取。
+
+   **Fallback 流程**（當頁面回應包含 "can't be found" 或 404 跡象時）：
+   - **Fallback 1**：嘗試詞根形式（去掉 -ing/-ed/-s/-tion 等字尾）再查一次
+   - **Fallback 2**：用 `WebSearch` 搜尋 `{word} etymology`，從結果中找其他可信來源（Wiktionary、OED 等）
+   - **Fallback 3**：若仍無資料，使用模型知識，但**必須明確標註「此字源為推論，非 etymonline 資料」**
+
 2. **綜合分析**：結合 etymonline 資料與模型知識，產出：
    - 中文定義（簡潔）
    - 字根字首拆解（追溯到 PIE 字根，用 `*` 標記）
