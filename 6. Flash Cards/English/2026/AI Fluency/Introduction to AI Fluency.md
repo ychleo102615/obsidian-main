@@ -9,6 +9,7 @@ link: https://anthropic.skilljar.com/ai-fluency-framework-foundations/291863
 ---
 
 # Introduction to AI Fluency
+
 # diligence #card  
 [[dis- "apart, away"]] + [[*leg- (1) "to collect, gather,"]] → *diligere* (珍愛、精心挑選)  
 謹慎而持續的投入；法律語境中指應盡的注意義務（due diligence）  
