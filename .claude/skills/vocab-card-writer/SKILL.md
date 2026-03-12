@@ -52,7 +52,7 @@ Fallback：Claude.ai chat（透過 Filesystem MCP 工具）。
 > 要為每個單字建立獨立檔案，還是匯總到同一個主題檔案？
 
 - **獨立檔案**：每個單字走標準建立流程
-- **主題檔案**：詢問主題名稱（作為檔名），所有單字卡依序 append 到同一個檔案；該檔案使用 template 建立骨架（同單字卡流程 Step A–D），之後每個單字只需 append
+- **主題檔案**：詢問主題名稱（作為檔名），所有單字卡依序 append 到同一個檔案；該檔案使用 template 建立骨架（同單字卡流程 Step A–D），之後每個單字只需 append。若使用者在指令中提到 URL 或其他 property 資訊，加入 frontmatter（如 `link: {url}`）
 
 #### 加入現有主題檔案情境
 
@@ -93,23 +93,19 @@ Grep pattern="# {word} #card" path="${VAULT}/${WORD_BASE}"
 - 找到 → 告知使用者「{word} 已存在（檔案：...），跳過建立」，**直接結束，不繼續後續步驟**
 - 找不到 → 繼續建立流程
 
-### 步驟 4：搜尋現有字根卡
+### 步驟 4：搜尋現有語素卡
 
-建立檔案前，搜尋 vault 中已有的字根卡。
+建立檔案前，搜尋 vault 中已有的語素卡（字根、字首、字尾、前綴、後綴等，依 etymonline 的分類方式處理，不需額外區分）。
 
-優先使用 Obsidian CLI：
+**搜尋範圍**：該單字 etymology 中出現的**所有語素成分**（如 `dis-`、`com-`、`leg`、`pet`、`sē` 等），逐一在整個 vault 中搜尋：
+
 ```bash
-obsidian search query="{字根關鍵字}"
-```
-
-Fallback 使用 bash：
-```bash
-find "${VAULT}/${ROOT_BASE}" -name "*{字根關鍵字}*" -type f
+find "${VAULT}" -name "*{語素關鍵字}*" -type f
 ```
 
 chat 環境使用 `Filesystem:search_files`。
 
-記錄已存在的字根卡檔名，供 wikilink 使用。
+記錄已存在的語素卡檔名，供 wikilink 使用。**只要有對應卡片，就必須建立 wikilink。**
 
 ### 步驟 4：建立單字卡
 
