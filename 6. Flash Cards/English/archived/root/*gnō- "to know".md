@@ -1,0 +1,1 @@
+Proto-Indo-European root meaning "to know." Source of Greek *gignōskein* (to know), *gnōstos* (known), *gnōsis* (knowledge); Latin *gnoscere/noscere*, *cognitio*; English *know*. (see [gno-](https://www.etymonline.com/word/*gno-))
