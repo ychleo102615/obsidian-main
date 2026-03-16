@@ -137,7 +137,9 @@ obsidian append file={word} content='{卡片內容}'
 ```
 
 **注意**：
+- template 名稱必須與 Obsidian 中完全一致（含數字前綴），例如 `4. English flash card`。可用 `obsidian templates` 列出所有可用名稱確認。
 - template 含空格時需用單引號包住整個參數：`'template={TEMPLATE}'`
+- `obsidian create` 首次執行時可能不輸出 `Created: ...` 訊息（CLI 啟動延遲），**不可依賴 stdout 判斷成敗**，必須用 Step B 的檔案存在檢查來確認。
 - `file=` 使用 wikilink 解析，不受路徑影響，可在 `mv` 後直接使用
 - content 含空格時同樣需用單引號包住：`'content=...'`
 
