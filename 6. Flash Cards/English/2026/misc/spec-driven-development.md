@@ -22,3 +22,5 @@ cards-deck: 英文
 共識、一致意見  
 所有人「感覺方向一致」就是 consensus  
 `Without consensus on the spec's acceptance criteria, every stakeholder interprets "done" differently.`
+
+
