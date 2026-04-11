@@ -71,7 +71,7 @@ time: 21:27
 [Free Flight](https://japantravel.navitime.com/zh-tw/area/jp/spot/02301-pn0002335/)
 
 
-住：東橫 INN
+住：東橫 INN, Smile Hotel ，很好找 1000 ~ 2000
 
 
 
