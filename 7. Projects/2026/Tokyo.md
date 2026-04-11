@@ -13,6 +13,10 @@ time: 21:27
 
 1400 淺草搭車
 [特急時刻表](https://www.tobu.co.jp/tcn/express_info/timetable.html)
-1400 SPACIAX
-1430 Revaty 華嚴
-1500 SPACIAX
+
+| 淺草發車 |           | 抵達下今市 | 抵達東武日光 | 往鬼怒川發車 |
+| ---- | --------- | ----- | ------ | ------ |
+| 1400 | SPACIAX   | 1540  |        |        |
+| 1430 | Revaty 華嚴 | 1609  |        |        |
+| 1500 | SPACIAX   | 1642  |        |        |
+
