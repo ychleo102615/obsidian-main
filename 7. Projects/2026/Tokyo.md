@@ -28,10 +28,45 @@ time: 21:27
 ### 7/27 （一） day 6
 1300 上野
 
+[新幹線時刻表](https://japantravel.navitime.com/zh-tw/area/jp/depArrTimeList/00004067/00000522/00000185?direction=down&date=2026-04-13&hour=13&trainType=&type=)
+
+- 13:06 → 13:48 ( 42分鐘 )
+    Tsubasa139号
+    到 山形
+    月台: 20番月台
+- 13:06 → 13:48 ( 42分鐘 )
+    Yamabiko139号
+    到 仙台
+    月台: 20番月台
+- 13:18 → 14:04 ( 46分鐘 )
+    Nasuno259号
+    到 郡山(福島縣)
+    月台: 20番月台
+- 13:42 → 14:25 ( 43分鐘 )
+    Yamabiko63号
+    到 盛岡
+    月台: 20番月台
+14:00
+- 14:06 → 14:48 ( 42分鐘 )
+    Yamabiko141号
+    到 仙台
+    月台: 20番月台
+- 14:06 → 14:48 ( 42分鐘 )
+    Tsubasa141号
+    到 新庄
+    月台: 20番月台
+- 14:18 → 15:04 ( 46分鐘 )
+    Yamabiko211号
+    到 仙台
+    月台: 20番月台
+- 14:42 → 15:25 ( 43分鐘 )
+
 1500 宇都宮 
 來得及去大谷資料館
 
 [宇都宮二荒山神社](https://japantravel.navitime.com/zh-tw/area/jp/spot/02301-14402537/)
+[Free Flight](https://japantravel.navitime.com/zh-tw/area/jp/spot/02301-pn0002335/)
+
 
 
 
