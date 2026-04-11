@@ -61,6 +61,9 @@ time: 21:27
     月台: 20番月台
 - 14:42 → 15:25 ( 43分鐘 )
 
+
+最理想的情況： 13:42 → 14:25 ( 43分鐘 )
+
 1500 宇都宮 
 來得及去大谷資料館
 
@@ -68,6 +71,7 @@ time: 21:27
 [Free Flight](https://japantravel.navitime.com/zh-tw/area/jp/spot/02301-pn0002335/)
 
 
+住：東橫 INN
 
 
 
