@@ -24,6 +24,9 @@ time: 21:27
 
 ### 日光版本
 
+### 宇都宮版本
+
+[宇都宮二荒山神社](https://japantravel.navitime.com/zh-tw/area/jp/spot/02301-14402537/)
 
 
 
