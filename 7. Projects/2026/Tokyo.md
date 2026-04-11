@@ -63,9 +63,13 @@ time: 21:27
 
 
 最理想的情況： 13:42 → 14:25 ( 43分鐘 )
+自由座  ¥4390
 
 1500 宇都宮 
-來得及去大谷資料館
+行李寄放飯店或是車站。
+應該來得及去大谷資料館
+
+晚上吃餃子和找音樂酒吧。
 
 [宇都宮二荒山神社](https://japantravel.navitime.com/zh-tw/area/jp/spot/02301-14402537/)
 [Free Flight](https://japantravel.navitime.com/zh-tw/area/jp/spot/02301-pn0002335/)
