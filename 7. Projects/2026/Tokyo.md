@@ -8,7 +8,7 @@ time: 21:27
 
 [旅行團](https://travel.liontravel.com/detail?NormGroupID=f667d90a-6148-4b71-9a9d-985187dd536a&GroupID=26JT723Y-T&Platform=APP&fr=ev57577C0201C0202M02)
 
-## 7/27 （一） day 6
+### 7/27 （一） day 6
 1300 上野
 
 1400 淺草搭車
@@ -20,11 +20,16 @@ time: 21:27
 | Revaty 華嚴會津 | 1430 | 1609  | 1623（華嚴） | 1640（會津）         |
 | SPACIAX     | 1500 | 1642  | 1649     | 1721（轉搭 東武鬼怒川線 ） |
 
-### 鬼怒川版本
+## 鬼怒川版本
 
-### 日光版本
+## 日光版本
 
-### 宇都宮版本
+## 宇都宮版本
+### 7/27 （一） day 6
+1300 上野
+
+1500 宇都宮 
+來得及去大谷資料館
 
 [宇都宮二荒山神社](https://japantravel.navitime.com/zh-tw/area/jp/spot/02301-14402537/)
 
