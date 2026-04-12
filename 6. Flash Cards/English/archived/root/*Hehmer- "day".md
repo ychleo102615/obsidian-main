@@ -1,0 +1,1 @@
+PIE root *\*Hehmer-* "day." Greek *hēmera* "day." (see [hemera](https://www.etymonline.com/word/hemera))
