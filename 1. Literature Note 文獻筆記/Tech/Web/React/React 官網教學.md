@@ -12,3 +12,4 @@ react 哲學中常會提到一種 SSOT(single source of truth) 或是 DRY (don't
 - Thinking in React - Step 3: Find the minimal but complete representation of UI state [](https://react.dev/learn/thinking-in-react#step-3-find-the-minimal-but-complete-representation-of-ui-state "Link for Step 3: Find the minimal but complete representation of UI state")
 - Managing State - Choosing the state structure [](https://react.dev/learn/managing-state#choosing-the-state-structure "Link for Choosing the state structure")
 	- Full name 不要自己一個 state ，用 first name, last name 組合
+- [Principles for structuring state](https://react.dev/learn/choosing-the-state-structure#principles-for-structuring-state)
