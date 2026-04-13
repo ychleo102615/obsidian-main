@@ -13,3 +13,9 @@ react 哲學中常會提到一種 SSOT(single source of truth) 或是 DRY (don't
 - Managing State - Choosing the state structure [](https://react.dev/learn/managing-state#choosing-the-state-structure "Link for Choosing the state structure")
 	- Full name 不要自己一個 state ，用 first name, last name 組合
 - [Principles for structuring state](https://react.dev/learn/choosing-the-state-structure#principles-for-structuring-state)
+
+
+[[2026-04-13|2026-04-13 Mon, 14:02]]
+
+[great front end](https://www.greatfrontend.com/questions/user-interface/selectable-cells?practice=practice&tab=coding)
+selected grids 的問題，我遇到了 ref, state 該用誰的問題。基本上 `{x, y}` 不會立刻改變 UI ，所以可以用 ref。
