@@ -12,6 +12,6 @@ cards-deck: 英文
 from [[com-, intensive prefix or "with, together,"]]  + [[pet- "to rush, to fly"]]
  
 
-# competence #card 
-能力、勝任、稱職
-[[compete]]
+
+
+[[Introduction to AI Fluency#competence card]]
