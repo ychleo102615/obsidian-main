@@ -19,3 +19,12 @@ react 哲學中常會提到一種 SSOT(single source of truth) 或是 DRY (don't
 
 [great front end](https://www.greatfrontend.com/questions/user-interface/selectable-cells?practice=practice&tab=coding)
 selected grids 的問題，我遇到了 ref, state 該用誰的問題。基本上 `{x, y}` 不會立刻改變 UI ，所以可以用 ref。
+
+
+[[2026-04-14|2026-04-14 Tue, 15:42]]
+
+**Synchronizing with Effects** 章節中，他提到：
+```
+ Connecting and disconnecting to a chat room should only happen when the component appears and disappears, or when the chat room changes.
+```
+我個人沒有很認同這句話，因為我認為 UI 與網路連線本來就是互相獨立的概念。
