@@ -126,3 +126,5 @@ time: 21:27
 2026年5⽉22⽇（⾦）18:00 〜 2026年5⽉28⽇（⽊）21:00
 
 [CD](https://frieren-anime.jp/music/2nd_st/)　4/15 開賣
+
+[會場](https://www.pacifico.co.jp)
