@@ -39,7 +39,7 @@ time: 16:21
 33. [ ] C
 34. [ ] A
 35. [ ] A-
-36. [ ] -
+36. [x] -
 37. [ ] B
 38. [ ] B
 39. [ ] A
@@ -47,7 +47,7 @@ time: 16:21
 41. [x] B-
 42. [ ] B
 
-錯 7 題
+錯 8 題
 不確定 14 題
 
 ##### Q4
@@ -115,3 +115,8 @@ ES2019 還無法動態 import 。
 
 ##### Q32
 default export 可以和 named export 同時存在。
+
+##### Q35
+Implementing `[Symbol.iterator]()` that returns an object with `next()` makes the object an **iterable**, usable with spread, `for...of`, `Array.from`, etc. `[...obj]` consumes `data[i++]` until exhausted.
+
+##### Q36
