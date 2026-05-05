@@ -106,4 +106,4 @@ const obj = {
   greet2: () => this.name,
 };
 ```
-greet2 this 不會指向 obj 本身
+greet2 this 不會指向 obj 本身。
