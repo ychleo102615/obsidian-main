@@ -52,3 +52,25 @@ time: 16:21
 
 ##### Q4
 Object.create 也會建立 `__proto__` 指向 Constructor.prototype
+
+##### Q5
+`Object.defineProperty`
+三個參數：
+- **obj**：目標物件。
+- **prop**：要定義或修改的屬性名稱（字串或 Symbol）。
+- **descriptor**：屬性描述符，用來設定該屬性的「特權」。
+
+
+|     |     |
+| --- | --- |
+|     |     |
+
+
+用於 Vue2
+
+```javascript
+const obj = {};
+Object.defineProperty(obj, 'x', { value: 1 });
+obj.x = 99;
+console.log(obj.x);
+```
