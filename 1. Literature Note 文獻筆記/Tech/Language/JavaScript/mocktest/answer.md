@@ -125,3 +125,6 @@ Implementing `[Symbol.iterator]()` that returns an object with `next()` makes th
 ###### `yield` vs `yield*`
 前者暫停執行，將表達式結果回傳給呼叫者。
 後者要接一個 **可迭代物件 (Iterable)**，例如陣列、字串或其他產生器。它會「進入」那個物件，逐一產出裡面的內容。
+
+##### Q41
+`await` on a rejected promise behaves like `throw`-ing the rejection reason, so it can be caught by `try/catch`. 
