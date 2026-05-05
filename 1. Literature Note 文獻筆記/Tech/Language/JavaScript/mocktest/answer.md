@@ -27,11 +27,11 @@ time: 16:21
 21. [ ] B
 22. [ ] B
 23. [ ] B-
-24. [x] B
+24. [ ] B
 25. [ ] D
-26. [x] D
-27. [ ] B
-28. [ ] A-
+26. [ ] D
+27. [x] B
+28. [x] A-
 29. [ ] B - 題目敘述有問題
 30. [ ] C
 31. [x] A-
@@ -90,3 +90,11 @@ switch 使用 `===` 比對。
 `Object.freeze` sets `writable: false` and `configurable: false` on every property and makes the object non-extensible.
 
 ##### Q23
+A class can extend a prototype-style constructor function.
+**在 JavaScript 中，現代的 `class` 語法與傳統的「建構函式（Constructor Function）」是可以互通的。**
+雖然 `class` 可以繼承 `function`，但**反過來則不行**。
+
+##### Q27
+`WeakSet` has **no `size` property, no iteration, no `clear`**.
+
+##### Q28
