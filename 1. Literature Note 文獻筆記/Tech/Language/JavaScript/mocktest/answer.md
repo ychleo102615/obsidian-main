@@ -81,3 +81,7 @@ switch 使用 `===` 比對。
 ##### Q13
 `{} + []`
 結果：`0` (在瀏覽器控制台中) 或 `"[object Object]"` (在某些環境或變數賦值時)
+
+因為題目有這個前提：
+(Assume each line is evaluated as an expression, not interpreted at statement level where `{}` could be parsed as a block.)
+{} 不會被解析為 block ，所以答案不是 0。
