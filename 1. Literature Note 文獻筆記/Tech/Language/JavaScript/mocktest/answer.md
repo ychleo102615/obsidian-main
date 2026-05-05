@@ -98,3 +98,12 @@ A class can extend a prototype-style constructor function.
 `WeakSet` has **no `size` property, no iteration, no `clear`**.
 
 ##### Q28
+物件的大括號 `{}` 只是資料結構，不是作用域。
+```javascript
+const obj = {
+  name: 'Leo',
+  greet1: function() { return this.name; },
+  greet2: () => this.name,
+};
+```
+greet2 this 不會指向 obj 本身
