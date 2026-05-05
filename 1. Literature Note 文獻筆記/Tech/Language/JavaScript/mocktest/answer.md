@@ -70,3 +70,14 @@ Object.create 也會建立 `__proto__` 指向 Constructor.prototype
 用於 Vue2
 
 ##### Q7
+
+default parameter 只有在 undefined 時才會生效，null 不會。
+所以 `1 + null + 3` 會得到 `1 + 0 + 3 === 4`
+另外，`1 + undefined + 3` 會得到 NaN。
+
+##### Q11
+switch 使用 `===` 比對。
+
+##### Q13
+`{} + []`
+結果：`0` (在瀏覽器控制台中) 或 `"[object Object]"` (在某些環境或變數賦值時)
