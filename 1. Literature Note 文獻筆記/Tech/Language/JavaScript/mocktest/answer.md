@@ -120,3 +120,8 @@ default export 可以和 named export 同時存在。
 Implementing `[Symbol.iterator]()` that returns an object with `next()` makes the object an **iterable**, usable with spread, `for...of`, `Array.from`, etc. `[...obj]` consumes `data[i++]` until exhausted.
 
 ##### Q36
+###### `function` vs `function*`
+前者一路執行到底，後者回傳迭代器物件（`Iterator Object`），需要呼叫 `.next()`方法來執行。
+###### `yield` vs `yield*`
+前者暫停執行，將表達式結果回傳給呼叫者。
+後者要接一個 **可迭代物件 (Iterable)**，例如陣列、字串或其他產生器。它會「進入」那個物件，逐一產出裡面的內容。
