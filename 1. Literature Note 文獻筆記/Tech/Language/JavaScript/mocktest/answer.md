@@ -60,17 +60,13 @@ Object.create 也會建立 `__proto__` 指向 Constructor.prototype
 - **prop**：要定義或修改的屬性名稱（字串或 Symbol）。
 - **descriptor**：屬性描述符，用來設定該屬性的「特權」。
 
-
-|     |     |
-| --- | --- |
-|     |     |
-
+| 特徵           | 說明                               | 預設值       |
+| ------------ | -------------------------------- | --------- |
+| value        | 實際數值                             | undefined |
+| writable     | 可否被 assign                       | false     |
+| enumerable   | 是否出現在 for ... in 或 Object.keys() | false     |
+| configurable | 可否刪除                             | false     |
 
 用於 Vue2
 
-```javascript
-const obj = {};
-Object.defineProperty(obj, 'x', { value: 1 });
-obj.x = 99;
-console.log(obj.x);
-```
+##### Q7
