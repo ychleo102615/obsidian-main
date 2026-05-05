@@ -107,3 +107,11 @@ const obj = {
 };
 ```
 greet2 this 不會指向 obj 本身。
+
+
+##### Q31
+這可能是最雷的一題。
+ES2019 還無法動態 import 。
+
+##### Q32
+default export 可以和 named export 同時存在。
