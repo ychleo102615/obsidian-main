@@ -85,3 +85,8 @@ switch 使用 `===` 比對。
 因為題目有這個前提：
 (Assume each line is evaluated as an expression, not interpreted at statement level where `{}` could be parsed as a block.)
 {} 不會被解析為 block ，所以答案不是 0。
+
+##### Q20
+`Object.freeze` sets `writable: false` and `configurable: false` on every property and makes the object non-extensible.
+
+##### Q23
