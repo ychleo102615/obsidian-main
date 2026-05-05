@@ -49,3 +49,6 @@ time: 16:21
 
 錯 7 題
 不確定 14 題
+
+##### Q4
+Object.create 也會建立 `__proto__` 指向 Constructor.prototype
