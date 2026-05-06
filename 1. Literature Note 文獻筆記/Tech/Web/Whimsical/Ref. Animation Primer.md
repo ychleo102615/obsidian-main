@@ -17,3 +17,7 @@ time: 22:05
 	animation-fill-mode: forwards;
 }
 ```
+
+其他還有 `backwards`, `both`。
+
+但是這有缺點，keyframes 的優先度很高，這會導致其他 CSS 操作設定都被 keyframes 覆寫。
