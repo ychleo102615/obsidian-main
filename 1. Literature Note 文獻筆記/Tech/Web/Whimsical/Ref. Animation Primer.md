@@ -2,6 +2,7 @@
 tags: []
 date: 2026-05-06
 time: 22:05
+link: https://courses.joshwcomeau.com/wham/animation-primer/01.01-fill-modes
 ---
 
 
@@ -20,4 +21,10 @@ time: 22:05
 
 其他還有 `backwards`, `both`。
 
-但是這有缺點，keyframes 的優先度很高，這會導致其他 CSS 操作設定都被 keyframes 覆寫。
+但是這有缺點。keyframes 的優先度很高，這會導致其他 CSS 操作設定都被 keyframes 覆寫。
+
+![forwards](https://courses.joshwcomeau.com/wham-mats/fill-mode-forwards.svg)
+
+![backwards](https://courses.joshwcomeau.com/wham-mats/fill-mode-backwards.svg)
+
+![both](https://courses.joshwcomeau.com/wham-mats/fill-mode-both-50.svg)
