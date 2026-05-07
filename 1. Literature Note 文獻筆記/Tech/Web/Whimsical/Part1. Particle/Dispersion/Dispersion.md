@@ -23,4 +23,6 @@ link: https://courses.joshwcomeau.com/wham/01-particles/04-dispersion
 ### 位置設定
 這很 tricky。也有用到 [[Partial Keyframes]] 的感覺。
 keyframes 設定只設定 from 。
-但是利用 `requestAnimationFrame` 設定 `to` 概念的位置。
+但是用 inline 的方式設定目標位置 `to`。
+
+剛剛誤會他使用的是 `requestAnimationFrame`，這個是 transition 時才會用的技巧。
