@@ -24,3 +24,19 @@ link: https://courses.joshwcomeau.com/wham/01-particles/02-containment-strategie
 
 
 # Perfect Containment
+完全不 overflow 的配置方式。透過同時操作 left, transform translateX 來完成：
+```css
+  .star {
+    /* Tweak these values to see the containment: */
+    --top: 0%;
+    --left: 100%;
+    
+    position: absolute;
+    top: var(--top);
+    left: var(--left);
+    transform: translate(
+      calc(var(--left) * -1),
+      calc(var(--top) * -1)
+    );
+  }
+```
