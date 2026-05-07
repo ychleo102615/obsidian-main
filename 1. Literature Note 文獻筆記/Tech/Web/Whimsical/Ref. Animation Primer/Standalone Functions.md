@@ -82,5 +82,6 @@ translate: 100px; /* apply to X only */
 
 # Downsides
 
+- 使用上較不彈性
 - 支援只有到 95% 的瀏覽器
-- 失去描述應用順序的空間
+- 失去描述應用順序的空間，統一順序為 scale -> rotate -> translate ，最直覺的效果（沒有 orbit）
