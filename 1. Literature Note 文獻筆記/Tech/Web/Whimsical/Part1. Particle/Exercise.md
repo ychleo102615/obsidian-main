@@ -13,5 +13,8 @@ time: 18:10
 	pointer-events: none; /* 問 Claude 時，他給我 */
 }
 
-.partic
+.particle::selection {
+	/* pointer events 替代 */
+	background: transparent;
+}
 ```
