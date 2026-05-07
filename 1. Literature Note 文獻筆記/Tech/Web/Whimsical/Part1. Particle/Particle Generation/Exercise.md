@@ -2,15 +2,17 @@
 tags: []
 date: 2026-05-07
 time: 18:10
+link: https://courses.joshwcomeau.com/wham/01-particles/01.02-initial-exercises
 ---
+# Starry Night
 ```css
 .startLayer {
+	/*常用於遮罩*/
 	inset: 0;
 	position: absolute;
-	/*常用於遮罩*/
 	overflow: hidden;
 	user-select: none;
-	pointer-events: none; /* 問 Claude 時，他給我 */
+	pointer-events: none; /* 問 Claude 時，他讓我用下面的 selection 使用方式  */
 }
 
 .particle::selection {
