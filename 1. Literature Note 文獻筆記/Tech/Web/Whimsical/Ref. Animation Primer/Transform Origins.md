@@ -12,9 +12,7 @@ transform-origin: 0% 150%;
 ```
 
 
-translate 時，origin 也不會動。所以先 translate 再 rotate，會造成 rotate 用很大的半徑在旋轉的效果。
 
-使用 CSS 時，似乎不需要思考繪製的本質和線性代數。
 CSS 會自動依照你寫的順序：
 ```css
 transfomr: translateX(100px) rotate(90deg);
