@@ -47,4 +47,14 @@ time: 18:10
 
 ```
 
-克ㄔ
+課程中示範了另一種實作可能性：使用 transition。
+```css
+.shimmer {
+	transform: translateX(-100%);
+	transition: transform 1000ms;
+}
+.buyButton:hover .shimmer {
+	transform: translateX(100%);
+}
+```
+雖然程式碼簡單很多，但是這有個副作用，當滑鼠移開時他會像乒乓球一樣來回。
