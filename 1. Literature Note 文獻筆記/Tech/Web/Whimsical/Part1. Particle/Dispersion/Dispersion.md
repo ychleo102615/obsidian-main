@@ -13,3 +13,14 @@ link: https://courses.joshwcomeau.com/wham/01-particles/04-dispersion
 
 我學到的東西：
 
+#### 不同的動畫時間要怎麼設定
+我自己查的時候，得到的答案是用逗號區隔就可以了。這挺直覺。
+但是講師認為這樣不好，因為我們改動動畫順序的話，這邊就會出問題了。
+這很有道理。
+
+所以講師採用的方法是 CSS 變數。
+
+### 位置設定
+這很 tricky。也有用到 [[Partial Keyframes]] 的感覺。
+keyframes 設定只設定 from 。
+但是利用 `requestAnimationFrame` 設定 `to` 概念的位置。
