@@ -22,5 +22,29 @@ time: 18:10
 
 # Shimmer Particle
 ```css
+@keyframes moveRight {
+    from {
+      translate: -100%;
+    }
+    to {
+      translate: 100%;
+    }
+  }
+  .shimmer {
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(
+      to right,
+      transparent,
+      hsl(180deg 100% 90%),
+      transparent
+    );
+    opacity: 0.5;
+    animation: moveRight forwards;
+  }
 
 ```
+
+克ㄔ
