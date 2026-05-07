@@ -60,3 +60,27 @@ time: 15:03
 ```
 
 ##### breathe, spin 覆蓋 transform 屬性，所以只有 spin 生效。
+
+
+
+# Full syntax
+
+```css
+.elem {
+	/* Equivalent to “transform: scale(1.25, 0.75)”: */
+	scale: 1.25 0.75;
+	/* Equivalent to “transform: translate(20px, -50px)”: */
+	translate: 20px -50px;
+}
+```
+
+給予單一參數時的預設性有所不同
+```css
+scale: 1.5; /* apply to both X and Y */
+translate: 100px; /* apply to X only */
+```
+
+# Downsides
+
+- 支援只有到 95% 的瀏覽器
+- 失去描述應用順序的空間
