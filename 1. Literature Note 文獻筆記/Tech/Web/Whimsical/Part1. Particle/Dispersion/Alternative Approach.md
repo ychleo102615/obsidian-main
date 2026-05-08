@@ -5,7 +5,7 @@ time: 14:03
 ---
 ```css
 .particle {
-	inset: 0;
+	inset: 0px; /* short hand for top, left, bottom, right all set to same value. */
 	margin: auto;
 }
 
