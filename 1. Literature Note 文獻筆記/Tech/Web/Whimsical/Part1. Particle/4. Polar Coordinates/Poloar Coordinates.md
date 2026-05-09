@@ -2,9 +2,11 @@
 tags: []
 date: 2026-05-09
 time: 20:57
+link: https://courses.joshwcomeau.com/wham/01-particles/07-polar-coordinates
 ---
 
-### Cartesian Coordinates 笛卡兒
+### Cartesian Coordinates 笛卡兒坐標系
+就是直角坐標系（Rectangular Coordinates）
 
 ```css
 @keyframes disperse {
