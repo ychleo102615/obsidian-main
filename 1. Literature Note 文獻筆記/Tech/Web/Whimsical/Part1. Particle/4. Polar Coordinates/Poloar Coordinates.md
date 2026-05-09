@@ -20,3 +20,14 @@ link: https://courses.joshwcomeau.com/wham/01-particles/07-polar-coordinates
 ```
 
 但讓 CSS 保持 Cartesian 會比較好，比較不複雜。
+
+```js
+const convertPolarToCartesian = (angle, distance) => {
+	const angleInRadians = convertDegreesToRadians(angle);
+	const x = Math.cos(angleInRadians) * distance;
+	const y = Math.sin(angleInRadians) * distance;
+	return [x, y];
+};
+
+const convertDegreesToRadians = (angle) => (angle * Math.PI) / 180;
+```
