@@ -2,6 +2,7 @@
 tags: []
 date: 2026-05-10
 time: 21:59
+link: https://courses.joshwcomeau.com/wham/01-particles/10-linear-interpolation
 ---
 
 ```js
@@ -14,6 +15,8 @@ const angle = normalize(index, 0, NUM_OF_PARTICLES, 0, 360);
 
 ```
 
+
+[工具函式集](https://courses.joshwcomeau.com/wham/01-particles/10.02-lerp-utils)
 ```js
 export const clamp = (
 	value,
@@ -62,18 +65,18 @@ export const clampedNormalize = (
 // In addition to _linear_ interpolation, I sometimes want to use _exponential_ interpolation, where the input is mapped onto a curved line rather than a straight one. This is beyond the scope of this lesson, but feel free to experiment with this!
 
 export const exponentialNormalize = (
-value,
-currentScaleMin,
-currentScaleMax,
-newScaleMin = 0,
-newScaleMax = 1,
-exponent = 2
+	value,
+	currentScaleMin,
+	currentScaleMax,
+	newScaleMin = 0,
+	newScaleMax = 1,
+	exponent = 2
 ) => {
-const normalizedInput =
-(value - currentScaleMin) / (currentScaleMax - currentScaleMin);
-const exponentialOutput = Math.pow(normalizedInput, exponent);
-return (
-newScaleMin + (newScaleMax - newScaleMin) * exponentialOutput
-);
+	const normalizedInput =
+		(value - currentScaleMin) / (currentScaleMax - currentScaleMin);
+	const exponentialOutput = Math.pow(normalizedInput, exponent);
+	return (
+		newScaleMin + (newScaleMax - newScaleMin) * exponentialOutput
+	);
 };
 ```
