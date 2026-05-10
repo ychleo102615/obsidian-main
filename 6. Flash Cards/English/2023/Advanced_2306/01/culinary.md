@@ -1,5 +1,5 @@
 ---
-tags: flash-cards, Engslish-flash-card
+tags: [flash-cards, Engslish-flash-card]
 date: 2023-05-24-週三
 time: 21:56
 cards-deck: 英文
