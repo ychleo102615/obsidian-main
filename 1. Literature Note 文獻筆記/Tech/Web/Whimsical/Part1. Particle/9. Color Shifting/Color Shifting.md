@@ -36,4 +36,7 @@ oklch()
 }
 ```
 
-這樣的顏色有問題
+這樣的顏色轉移有問題。因為動畫線性插值會在 RGB 空間上跑，所以過度的顏色與 HSL 建立的直覺不符，顏色會變灰調。
+
+
+ [“Make Beautiful Gradients”](https://www.joshwcomeau.com/css/make-beautiful-gradients/)
