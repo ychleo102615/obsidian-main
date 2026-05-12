@@ -26,3 +26,23 @@ link: https://courses.joshwcomeau.com/wham/01-particles/11-motion-accessibility
 	}
 }
 ```
+
+##### The `prefers-reduced-motion` media query only has two possible values:
+`reduce`: true
+`no-preference`: false
+
+
+### Accessing motion preferences in JavaScript
+
+```js
+function checkMotionPreferences() {
+  const isMotionEnabled = window.matchMedia(
+    '(prefers-reduced-motion: no-preference)'
+  ).matches;
+  return isMotionEnabled;
+}
+
+console.log(checkMotionPreferences()); // `true` or `false`
+```
+
+##### 
