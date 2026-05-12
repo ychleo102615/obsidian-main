@@ -45,6 +45,9 @@ function checkMotionPreferences() {
 console.log(checkMotionPreferences()); // `true` or `false`
 ```
 
+##### 為什麼不檢查 reduced 而是 no-preference？
+瀏覽器可能沒有支持 prefers-reduced-motion，所以用 checkEnabled 的方式更保守。
+
 ##### React 中免去不同步的問題的方式：usePrefersReducedMotion
 https://www.joshwcomeau.com/snippets/react-hooks/use-prefers-reduced-motion/
 
