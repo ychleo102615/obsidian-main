@@ -45,4 +45,7 @@ function checkMotionPreferences() {
 console.log(checkMotionPreferences()); // `true` or `false`
 ```
 
-##### 
+##### React 中免去不同步的問題的方式：usePrefersReducedMotion
+https://www.joshwcomeau.com/snippets/react-hooks/use-prefers-reduced-motion/
+
+
