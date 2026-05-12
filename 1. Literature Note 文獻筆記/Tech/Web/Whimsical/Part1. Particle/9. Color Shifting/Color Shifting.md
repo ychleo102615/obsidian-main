@@ -40,3 +40,15 @@ oklch()
 
 
  [“Make Beautiful Gradients”](https://www.joshwcomeau.com/css/make-beautiful-gradients/)
+
+## CSS filters to the rescue!
+```css
+@keyframes hueRotate {
+	to {
+		filter: hue-rotate(var(--hue-rotation));
+	}
+}
+.particle {
+	animation: hueRotate 1000ms;
+}
+```
