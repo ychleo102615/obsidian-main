@@ -14,3 +14,7 @@ time: 13:18
 	}
 }
 ```
+
+
+## Magic Wound Revisited
+使用極短 duration 可以讓動畫消失。
