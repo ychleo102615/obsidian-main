@@ -12,3 +12,28 @@ link: https://courses.joshwcomeau.com/wham/01-particles/12.03-colors
 文中只隨機 H 維度時，營造了一種粉蠟筆色調的感覺。
 
 有種希望自己可以早點知道的感覺。
+
+
+這邊意外知道另一種顏色表示法：
+```
+oklch()
+```
+雖然講者說不喜歡，但我覺得還不錯。
+
+
+
+## Color Shifting
+
+```css
+@keyframes colorShift {
+	from {
+		background: var(--from-color);
+	}
+}
+.particle {
+	background-color: var(--to-color);
+	animation: colorShift 1500ms linear;
+}
+```
+
+這樣的顏色有問題
