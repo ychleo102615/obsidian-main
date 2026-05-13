@@ -92,3 +92,45 @@ stroke 必定從線的中央出發，無法調整（inside or outside）。
 	/>
 </svg>
 ```
+
+- 圓心、半徑
+- 線條
+- 填滿效果
+
+
+# Ellipses
+```css
+<svg width="300" height="300">
+	<ellipse
+		cx="150"
+		cy="150"
+		rx="75"
+		ry="50"
+		fill="none"
+		stroke="oklch(0.9 0.3 164)"
+		stroke-width="5"
+	/>
+</svg>
+```
+
+- 半徑變成 rx, ry
+
+# Polylines
+```css
+<svg width="280" height="280">
+	<polyline
+		points="
+			60,100
+			100,180
+			140,140
+			180,180
+			220,100
+		"
+		fill="none"
+		stroke="oklch(0.9 0.3 164)"
+		stroke-width="5"
+	/>
+</svg>
+```
+
+他不是單純多個 line 而已>
