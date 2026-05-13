@@ -49,5 +49,23 @@ svg {
 
 ### Dashes
 `stroke-dasyarray` = "10, 10"
-
 控制虛線。描述 dash, gap 的長度。
+
+`stroke-dashoffset` 調整位置
+
+文中示範了一種應用，與我的個人專案花牌的等待配對 loading 動畫很像：
+```css
+<svg width="276" height="276">
+    <circle
+        cx="138"
+        cy="138"
+        r="87.54"
+        stroke-width="5"
+        stroke-dasharray="100,450"
+        stroke-dashoffset="480"
+        stroke-linecap="round"
+    />
+</svg>
+```
+
+虛線的效果像是一個圈上只有一段有 stroke。調整 `stroke-dashoffset` 
