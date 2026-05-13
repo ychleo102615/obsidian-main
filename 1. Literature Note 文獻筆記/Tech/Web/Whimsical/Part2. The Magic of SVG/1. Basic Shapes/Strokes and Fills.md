@@ -68,4 +68,4 @@ svg {
 </svg>
 ```
 
-虛線的效果像是一個圈上只有一段有 stroke。調整 `stroke-dashoffset` 
+虛線的效果像是一個圈上只有一段有 stroke。動態調整 `stroke-dashoffset` 看起來就像在旋轉。
