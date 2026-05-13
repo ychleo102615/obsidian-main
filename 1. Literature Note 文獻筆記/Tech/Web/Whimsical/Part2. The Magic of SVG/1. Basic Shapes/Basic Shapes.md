@@ -174,6 +174,9 @@ stroke 必定從線的中央出發，無法調整（inside or outside）。
 
 永遠會使用同一行，沒有 line-wrapping
 
+- `text-anchor`: 左右方向的 anchor  `start|middle|end`
+- `dominant-baseline`: 上下方向的 anchor  `auto|middle|hanging`
+
 
 
 
