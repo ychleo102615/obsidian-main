@@ -161,13 +161,20 @@ stroke 必定從線的中央出發，無法調整（inside or outside）。
 ```css
 <svg width="280" height="280">
     <text
-    x="140"
-    y="140"
-    text-anchor="middle"
-    dominant-baseline="middle"
-    fill="oklch(0.9 0.3 164)"
+        x="140"
+        y="140"
+        text-anchor="middle"
+        dominant-baseline="middle"
+        fill="oklch(0.9 0.3 164)"
     >
-    Hello World
+        Hello World
     </text>
 </svg>
 ```
+
+永遠會使用同一行，沒有 line-wrapping
+
+
+
+
+
