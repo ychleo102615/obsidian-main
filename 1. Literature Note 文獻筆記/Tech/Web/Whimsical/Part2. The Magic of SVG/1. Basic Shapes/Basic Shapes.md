@@ -52,7 +52,7 @@ time: 21:39
 
 - 聲明左上角的點
 - 聲明寬高
-- 聲明顏色、粗度
+- 聲明線條顏色、粗度
 
 stroke 必定從線的中央出發，無法調整（inside or outside）。
 
@@ -67,6 +67,7 @@ stroke 必定從線的中央出發，無法調整（inside or outside）。
 		fill="none"
 		stroke="oklch(0.9 0.3 164)"
 		stroke-width="5"
+		/* optional */
 		rx="100"
 		ry="50"
 		fill="none"
@@ -74,4 +75,20 @@ stroke 必定從線的中央出發，無法調整（inside or outside）。
 </svg>
 ```
 
-- 圓角辦ㄐㄧ
+- 圓角半徑。可以省略 ry 以表與 rx 相同
+- 填滿效果
+
+
+# Circles
+```css
+<svg width="280" height="280">
+	<circle
+		cx="140"
+		cy="140"
+		r="70"
+		fill="none"
+		stroke="oklch(0.9 0.3 164)"
+		stroke-width="5"
+	/>
+</svg>
+```
