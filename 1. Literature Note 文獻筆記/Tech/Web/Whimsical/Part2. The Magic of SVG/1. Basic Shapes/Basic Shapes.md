@@ -49,3 +49,29 @@ time: 21:39
 	/>
 </svg>
 ```
+
+- 聲明左上角的點
+- 聲明寬高
+- 聲明顏色、粗度
+
+stroke 必定從線的中央出發，無法調整（inside or outside）。
+
+
+```css
+<svg width="300" height="300">
+	<rect
+		x="60"
+		y="100"
+		width="180"
+		height="100"
+		fill="none"
+		stroke="oklch(0.9 0.3 164)"
+		stroke-width="5"
+		rx="100"
+		ry="50"
+		fill="none"
+	/>
+</svg>
+```
+
+- 圓角辦ㄐㄧ
