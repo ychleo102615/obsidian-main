@@ -133,4 +133,26 @@ stroke 必定從線的中央出發，無法調整（inside or outside）。
 </svg>
 ```
 
-他不是單純多個 line 而已>
+他不是單純多個 line 而已。之後會教 `stroke-linejoin`
+
+# Polygons
+```css
+<svg width="280" height="280">
+	<polygon
+		points="
+			60,100
+			100,180
+			140,140
+			180,180
+			220,100
+		"
+		fill="none"
+		stroke="oklch(0.9 0.3 164)"
+		stroke-width="5"
+	/>
+</svg>
+```
+
+與 polyline 幾乎一樣，差別在首尾會連在一起。
+
+
