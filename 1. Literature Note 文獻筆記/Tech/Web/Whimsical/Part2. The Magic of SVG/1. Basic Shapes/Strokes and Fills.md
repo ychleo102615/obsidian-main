@@ -40,3 +40,14 @@ svg {
 
 ### Stroke Opacity
 `stroke-opacity`
+
+### Caps and joins
+邊緣連接處的處理
+
+`stroke-linecap`: `butt | round | square`
+`stroke-linejoin`: `miter | round | bevel`
+
+### Dashes
+`stroke-dasyarray` = "10, 10"
+
+控制虛線。描述 dash, gap 的長度。
