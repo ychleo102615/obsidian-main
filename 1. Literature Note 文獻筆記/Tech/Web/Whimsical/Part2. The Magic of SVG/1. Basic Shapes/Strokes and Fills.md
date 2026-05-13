@@ -30,3 +30,13 @@ presentational attributes 其實就是 CSS
 `fill-opacity`
 
 # Strokes
+
+### Allowing overflow
+```css
+svg {
+    overflow: visible;
+}
+```
+
+### Stroke Opacity
+`stroke-opacity`
