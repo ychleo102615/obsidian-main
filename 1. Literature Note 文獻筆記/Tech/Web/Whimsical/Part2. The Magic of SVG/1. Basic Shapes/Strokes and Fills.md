@@ -12,3 +12,21 @@ presentational attributes 其實就是 CSS
 但是講者也提到在 React, Vue 中 attribute 會更容易操作一點。
 
 預設是黑色，想要避免這個行為的話可以設置為 `none`
+
+
+### Inheriting text color
+
+```html
+<div style="color : red;">
+    ...
+    <circle
+        fill="currentColor"
+    />
+    ...
+</div>
+```
+
+### Fill opacity
+`fill-opacity`
+
+# Strokes
