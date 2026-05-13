@@ -29,5 +29,7 @@
     "editor:configure-toolbar"
   ],
   "useMarkdownLinks": false,
-  "promptDelete": false
+  "promptDelete": false,
+  "tabSize": 2,
+  "useTab": false
 }

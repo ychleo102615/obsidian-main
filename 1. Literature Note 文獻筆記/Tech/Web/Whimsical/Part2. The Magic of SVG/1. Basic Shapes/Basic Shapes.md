@@ -156,3 +156,18 @@ stroke 必定從線的中央出發，無法調整（inside or outside）。
 與 polyline 幾乎一樣，差別在首尾會連在一起。
 
 
+
+# Text
+```css
+<svg width="280" height="280">
+    <text
+    x="140"
+    y="140"
+    text-anchor="middle"
+    dominant-baseline="middle"
+    fill="oklch(0.9 0.3 164)"
+    >
+    Hello World
+    </text>
+</svg>
+```
