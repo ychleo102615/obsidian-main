@@ -26,3 +26,8 @@ button:hover .foreground {
 
 但是就功能語意上來說，用 keyframes 完全不適合（應該說用起來會太麻煩）。
 這裡的動畫涉及狀態切換，適合使用 transition。
+
+
+## Circular Progress Indicator
+
+pageLength 雖然是 presentation attribute ，但是他無勇
