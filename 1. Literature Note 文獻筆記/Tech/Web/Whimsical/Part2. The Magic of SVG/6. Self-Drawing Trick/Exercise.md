@@ -30,4 +30,9 @@ button:hover .foreground {
 
 ## Circular Progress Indicator
 
-pageLength 雖然是 presentation attribute ，但是他無勇
+pageLength 雖然是 presentation attribute ，但是他無法用 CSS property 來設置（只能用 attribute）。
+
+另外，[[Transform Origins]] 可以用來旋轉圖形。之前眨眼的練習題有有苦戰過。
+```css
+transform-origin: center;
+```
