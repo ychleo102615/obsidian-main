@@ -34,4 +34,36 @@ time: 12:23
 
 ## Bézier curves
 
-### Quadratic ## Bézier curves
+#### Quadratic  Bézier curves
+可以使用一個控制點。
+```css
+<svg viewBox="0 0 16 16">
+  <path
+    d="
+      M 2,2
+      Q 2,15
+        14,14
+    "
+  />
+</svg>
+```
+
+#### Cubic Bézier curves
+可以使用兩個控制點。
+
+```css
+<svg viewBox="0 0 16 16">
+  <path
+    d="
+      M 2,2
+      C 2,14
+        14,2
+
+        14,14
+
+    "
+
+  />
+
+</svg>
+```
