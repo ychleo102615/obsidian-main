@@ -13,3 +13,19 @@ time: 14:48
 https://courses.joshwcomeau.com/wham/02-svg/04-animated-svgs
 文中也有提到並且示範：
 Most single-value attributes, like `x` on a `<rect>` or `ry` on an `<ellipse>`, work great
+
+
+
+## Hamburger / X
+
+踩了個大雷。
+```js
+animate(line1, {
+    x2:5,
+    y2:16,
+    x1:19,
+    y1:16
+});
+```
+x1 等屬性，不能給 string ，要給數字。
+神奇的是給 string 會錯一半，沒有動畫效果，但是仍能變形。
