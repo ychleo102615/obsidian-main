@@ -2,6 +2,7 @@
 tags: []
 date: 2026-05-14
 time: 11:22
+link: https://courses.joshwcomeau.com/wham/02-svg/02-viewbox
 ---
 前一章的內容，SVG 元素繪製的位置都是絕對的比例。
 如果 width 不夠的話，會把超出部分 crop 掉。
