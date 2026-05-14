@@ -7,8 +7,17 @@ time: 16:26
 重複利用 path
 
 ```css
-<def>
-    <path ...>
-</def>
+<defs>
+    <path
+        id="path-template
+        d="..."
+    >    
+</defs>
 ```
-想要重複利用的部分放在 def 裡面。
+想要重複利用的部分放在 defs 裡面。
+
+```css
+<use 
+    href="#path-template"
+/>
+```
