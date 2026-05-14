@@ -29,4 +29,6 @@ console.log(pathLength); // 365.54931640625
   ...
 >
 ```
-之後內部的 px 單位都要參照比
+之後內部 `stroke-dasharray, strok-dashoffset` 的 px 單位都要參照比例尺。
+
+代價會是認知負擔。
