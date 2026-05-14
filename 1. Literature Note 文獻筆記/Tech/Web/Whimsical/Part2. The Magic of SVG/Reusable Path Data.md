@@ -21,3 +21,8 @@ time: 16:26
     href="#path-template"
 />
 ```
+
+
+從教學上來看，感覺主要的好處在於節省 HTML 檔案大小。
+
+問AI之後，他也有減少 DOM 節點數量、進而減少 Style Recalc 相關的運算。
