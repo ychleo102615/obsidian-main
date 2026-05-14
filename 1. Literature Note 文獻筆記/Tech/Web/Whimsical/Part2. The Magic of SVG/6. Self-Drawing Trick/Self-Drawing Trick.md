@@ -9,7 +9,8 @@ time: 16:57
 
 檢查 path 的長度：
 ```js
-
+const path = document.querySelector('.path');
+const length = path.getTotalLength();
 ```
 
 但是 dash 的長度即使是 0 ，也會渲染 linecap。
