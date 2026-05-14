@@ -12,6 +12,9 @@ ratio 不同時，會在上下或是左右方向留空。
 ```css
 <svg
     viewBox="0 0 1440 300"
-    preserveAspectRa
+    preserveAspectRatio="none"
 >
 ```
+`preserveAspectRatio`
+
+這與 `object.fit` 類似。
