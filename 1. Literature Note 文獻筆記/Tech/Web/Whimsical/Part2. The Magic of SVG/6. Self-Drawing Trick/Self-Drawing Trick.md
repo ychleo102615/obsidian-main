@@ -6,3 +6,12 @@ time: 16:57
 [[Strokes and Fills#Dashes]]
 `stroke-dasharray`
 建立超大的 gap，並且漸漸增加 dash 的長度。
+
+檢查 path 的長度：
+```js
+
+```
+
+但是 dash 的長度即使是 0 ，也會渲染 linecap。
+
+使用 offset。
