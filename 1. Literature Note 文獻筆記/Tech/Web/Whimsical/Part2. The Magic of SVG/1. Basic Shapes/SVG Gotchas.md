@@ -28,4 +28,4 @@ const circle = document.createElementNS(
 - `http://www.w3.org/1998/Math/MathML`
 
 
-HTML5 以前，需要使用 `xmlns` 來聲明 SVG。之後
+HTML5 以前，需要使用 `xmlns` 來聲明 SVG。之後瀏覽器自動依據 SVG 來判斷了。
