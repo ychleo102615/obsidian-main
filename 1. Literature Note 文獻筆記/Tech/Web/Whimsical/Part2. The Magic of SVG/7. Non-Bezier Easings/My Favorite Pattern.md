@@ -55,6 +55,7 @@ html {
 ```
 
 上述的 fallback 用法不適用 CSS variable。
+因為 Custom Property **不驗證值**，瀏覽器只是把字串存起來，不管內容是什麼都算「有效」。
 
 ```css
 html {
@@ -67,3 +68,7 @@ html {
 ```
 
 舊的瀏覽器不支援 `linear()`
+
+
+## Helpful comments
+因為 `linear()` 的參數我們不會手動調，我們不需要 prettier 幫我們
