@@ -38,3 +38,9 @@ time: 17:44
 
 
 ## Masks and lines
+
+**水平線消失的問題：**
+
+mask 預設會用目標元素的 bounding box 建立座標系。水平線高度為零 → bounding box 崩潰 → mask 整個失效 → 線消失。
+
+加 `maskUnits="userSpaceOnUse"` 改用 SVG 畫布座標系，問題解決。
