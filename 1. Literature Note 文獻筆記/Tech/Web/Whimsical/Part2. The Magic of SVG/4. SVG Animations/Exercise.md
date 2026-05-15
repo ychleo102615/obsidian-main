@@ -2,6 +2,7 @@
 tags: []
 date: 2026-05-14
 time: 14:48
+link: https://courses.joshwcomeau.com/wham/02-svg/04.02-animation-exercises
 ---
 ## Blinking Budget Emoji
 
@@ -29,3 +30,6 @@ animate(line1, {
 ```
 x1 等屬性，不能給 string ，要給數字。
 神奇的是給 string 會錯一半，沒有動畫效果，但是仍能變形。
+
+
+## Play / Stop
