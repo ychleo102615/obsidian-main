@@ -47,13 +47,23 @@ html {
 
 ```css
 .elem {
-/* fallback for older browsers: */
-color: hsl(340deg 100% 55%);
-/* modern version: */
-color: oklch(0.66 0.3 11.52);
+    /* fallback for older browsers: */
+    color: hsl(340deg 100% 55%);
+    /* modern version: */
+    color: oklch(0.66 0.3 11.52);
 }
 ```
 
-```css
+上述的 fallback 用法不適用 CSS variable。
 
+```css
+html {
+    --spring-smooth: cubic-bezier(...);
+    --spring-smooth-time: 1000ms;
+    @supports (animation-timing-function: linear(0, 1)) {
+        --spring-smooth: linear(/* Lots of values here */);
+    }
+}
 ```
+
+舊的瀏覽器不支援 `linear()`
