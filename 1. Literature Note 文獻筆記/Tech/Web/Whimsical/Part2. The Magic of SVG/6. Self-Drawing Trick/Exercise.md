@@ -53,17 +53,17 @@ transform-origin: center;
 這麼做的原因是希望 offset 在推進的時候，內容物也剛好是總長。
 原因下段說明。
 
-起始位置隨機的做法，我是讓 offset 隨機一個數字，並且讓他循環跑 offset -> totalLength + offset 的做法。頭尾要對得上的話，就需要 dash + gap 總長與 totalLength 相同。
+我想要讓起始位置隨機。設置 offset 隨機一個數字，並且讓他循環跑 offset -> totalLength + offset 的做法。頭尾要對得上的話，就需要 dash + gap 總長與 totalLength 相同。
 
 但是解答的做法就單純許多，隨機起始延遲時間而已。
-但是光是這樣就省下上面的許多功法。
+所以光是這樣就省下上面的許多功法。
 
 解答 dash gap 中的 gap 是固定一個大數字。
 offset 也是單純 0 -> totalLength。
 所以循環的起始點，必定會把 dash 繪製在頭部。
 這題也有起始圖像（王冠、西瓜的小圖）可以擋住，所以也看不出破綻。
 
-而我特意顛倒 dash, gap 的做法，在解答中的做法中也不需要了。
+而我特意顛倒 dash, gap 的做法，在解答中的做法中沒有特別提到。可能對視覺影響不大。
 ```css
 stroke-dasharray: "0 10 10 0"
 ```
