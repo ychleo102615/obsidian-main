@@ -46,4 +46,16 @@ transform-origin: center;
 並且據此調整 dash, gap 的長度。
 
 這麼做的原因是希望 offset 在推進的時候，內容物也剛好是總長。
-offset 我故意隨機起始一個
+
+起始位置隨機的做法，我是讓 offset 隨機一個數字，並且讓他循環跑 offset -> totalLength + offset 的做法。頭尾要對得上的話，就需要 dash + gap 總長與 totalLength 相同。
+
+但是解答的做法就單純許多，隨機起始延遲時間而已。
+但是光是這樣就省下上面的許多功法。
+
+解答 dash gap 中的 gap 是固定一個大數字。
+offset 也是單純 0 -> totalLength。
+所以循環的起始點，必定會把 dash 繪製在頭部。
+這題也圖像可以擋住，所以也看不出破綻。
+
+
+反思：我的想法有為了達成特殊要求而改的
