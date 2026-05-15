@@ -27,3 +27,6 @@ SVG 讓圖案旋轉要考慮 transform origin 問題。
 </svg>
 ```
 
+
+## Groups
+`<g>` 像是 SVG 的`div`。他們可以共享 transform-origin
