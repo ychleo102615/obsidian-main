@@ -71,4 +71,11 @@ html {
 
 
 ## Helpful comments
-因為 `linear()` 的參數我們不會手動調，我們不需要 prettier 幫我們
+因為 `linear()` 的參數我們不會手動調，我們不需要 prettier 幫我們 lint。
+
+```css
+.elem {
+/* prettier-ignore */
+--spring-smooth: linear(..../* super long */);
+}
+```
