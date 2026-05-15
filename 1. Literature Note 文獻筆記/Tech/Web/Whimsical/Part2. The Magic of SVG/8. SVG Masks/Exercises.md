@@ -20,3 +20,5 @@ console.log(bbox.x);      // 左上角 x
 console.log(bbox.y);      // 左上角 y
 ```
 
+[utilities](https://courses.joshwcomeau.com/wham/01-particles/10.02-lerp-utils)  用指數來建立進度會更像真的填滿體積和更快取得回饋。
+
