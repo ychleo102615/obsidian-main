@@ -52,3 +52,13 @@ React 則是用聲明式的方式：
     />
 </svg>
 ```
+
+
+## Spring transitions
+```jsx
+transition={{
+    type: 'spring',
+    stiffness: 250,
+    damping: isHovering ? 30 : 5,
+}}
+```
