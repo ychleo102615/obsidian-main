@@ -11,3 +11,19 @@ SVG 讓圖案旋轉要考慮 transform origin 問題。
 
 但 SVG 的中心會在整個圖形的中心。
 
+## The fix
+使用該繪圖指令原本的位移：
+```html
+<style>
+    text {
+        transform: rotate(-1deg);
+        transform-origin: 150px 100px;
+    }
+</style>
+<svg viewBox="0 0 250 250">
+    <text x="150" y="100">
+        Hello
+    </text>
+</svg>
+```
+
