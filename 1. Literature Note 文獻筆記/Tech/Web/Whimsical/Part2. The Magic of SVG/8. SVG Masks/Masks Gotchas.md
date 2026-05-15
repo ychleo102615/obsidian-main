@@ -32,3 +32,9 @@ time: 17:44
     />
 </g>
 ```
+
+
+## Masks and strokes
+
+
+## Masks and lines
