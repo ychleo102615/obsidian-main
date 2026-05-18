@@ -31,3 +31,5 @@ time: 14:18
         transform 600ms cubic-bezier(0.54, -0.8, 1, 0.9);
     }
 ```
+
+一個有趣的情境是，使用者快速 cancel 又 open 的話會怎麼樣？
