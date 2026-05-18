@@ -19,3 +19,5 @@ btn.addEventListener('click', () => {
     audioElem.play();
 });
 ```
+
+以上的用法不允許重複點擊（上一次音效還在播放時，就無法觸發下次播放）
