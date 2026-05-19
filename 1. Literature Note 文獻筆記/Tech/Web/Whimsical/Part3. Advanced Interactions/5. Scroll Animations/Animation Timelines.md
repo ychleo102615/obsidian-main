@@ -39,3 +39,10 @@ time: 21:35
     animation-timeline: scroll(root block);
 }
 ```
+
+
+`timeline: view()` 
+這會抓準元素可以看到的時機。
+之後 `animation-range` 也可以調整。
+entry : 0% 代表剛摸到邊，100% 代表完全進入 viewport
+cover: 0% 同樣是摸到邊
