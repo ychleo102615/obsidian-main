@@ -45,4 +45,4 @@ time: 21:35
 這會抓準元素可以看到的時機。
 之後 `animation-range` 也可以調整。
 entry : 0% 代表剛摸到邊，100% 代表完全進入 viewport
-cover: 0% 同樣是摸到邊
+cover: 0% 同樣是摸到邊，但是跨度就到整個 viewport ，直到完全看不見才是 100%
