@@ -24,4 +24,11 @@ const scaledX = normalize(relativeX, 0, bb.width, 0, VIEW_BOX_SIZE);
 
   circle.setAttribute('cx', x);
   circle.setAttribute('cy', y);
+  
+
+  
 ```
+
+  `SVGMatrix { a: 1.565, b: 0, c: 0, d: 1.565, e: 78.25, f: 276.25 }`
+  
+  CTM = Current Transformation Matrix
