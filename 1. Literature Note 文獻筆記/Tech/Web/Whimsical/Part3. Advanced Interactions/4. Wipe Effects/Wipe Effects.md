@@ -35,3 +35,7 @@ time: 17:21
 
 ## Intangible pixels
 用 clip path 把圖示隱藏時，他同時也把 hover event 隱藏了
+
+
+## Paint Order
+同時應用陰影和 clip path 時，會發現陰影被截掉。這是因為陰影會在 clip path 之前套用
