@@ -32,3 +32,8 @@ const scaledX = normalize(relativeX, 0, bb.width, 0, VIEW_BOX_SIZE);
   `SVGMatrix { a: 1.565, b: 0, c: 0, d: 1.565, e: 78.25, f: 276.25 }`
   
   CTM = Current Transformation Matrix
+
+```js
+const point = new DOMPoint(event.clientX, event.clientY); 
+const { x, y } = point.matrixTransform(svg.getScreenCTM().inverse());
+```
