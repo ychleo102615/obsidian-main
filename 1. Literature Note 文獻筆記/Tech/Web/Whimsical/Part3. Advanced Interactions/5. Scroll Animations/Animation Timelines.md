@@ -30,3 +30,12 @@ time: 21:35
 - [View Timeline Range Visualizer (opens in new tab)](https://scroll-driven-animations.style/tools/view-timeline/ranges)
     
 - [“Scroll-Driven Animations Debugger” Chrome extension](https://chromewebstore.google.com/detail/scroll-driven-animations/ojihehfngalmpghicjgbfdmloiifhoce)
+
+
+想要 scroll 純粹按照最外層卷軸觸發時：
+```css
+.box {
+    animation: spin linear;
+    animation-timeline: scroll(root block);
+}
+```
