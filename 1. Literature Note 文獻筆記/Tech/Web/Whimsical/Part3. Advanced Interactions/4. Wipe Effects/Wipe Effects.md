@@ -39,3 +39,5 @@ time: 17:21
 
 ## Paint Order
 同時應用陰影和 clip path 時，會發現陰影被截掉。這是因為陰影會在 clip path 之前套用
+
+問題的解決方式也是類似。把 `filter: drop-shasow` 上移到 parent
