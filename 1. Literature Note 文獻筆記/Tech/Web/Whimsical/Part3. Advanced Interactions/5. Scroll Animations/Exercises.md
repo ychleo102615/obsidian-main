@@ -19,6 +19,9 @@ animation: var(--duration) var(--easing);
 
 .word {
     animation-range:
-        cover calc(sibling-index() * 5%)
+        cover calc(20% + sibling-index() * 5%)
+        cover calc(45% + sibling-index() * 5%);
+}
+@supports () {
 }
 ```
