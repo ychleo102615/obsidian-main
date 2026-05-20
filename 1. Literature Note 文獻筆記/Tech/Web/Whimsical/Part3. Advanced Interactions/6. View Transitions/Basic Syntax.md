@@ -26,3 +26,10 @@ time: 15:18
     view-transition-name: next-btn;
   }
 ```
+
+
+|選擇器|類型|意義|
+|---|---|---|
+|`::view-transition-group(*)`|偽元素|View Transition API 建立的虛擬過渡群組節點|
+|`:root`|偽類|文件根元素（`<html>`）的「根身份」狀態|
+偽類的定義是：**不基於 HTML 標籤名稱，而是基於其他條件來選取元素**。
