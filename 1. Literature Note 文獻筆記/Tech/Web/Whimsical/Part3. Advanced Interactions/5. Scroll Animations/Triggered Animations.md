@@ -31,4 +31,25 @@ const observer = new IntersectionObserver((entries) => {
 observer.observe(box);
 ```
 
-### 手動間聽
+### 手動監聽
+
+
+```js
+const elem = document.querySelector('.elem');
+
+const handleScroll = throttle(() => {
+  const totalHeight = document.body.scrollHeight;
+  const totalScrollDistance = totalHeight - window.innerHeight;
+  
+  const scrollPercentage =
+    (window.scrollY / totalScrollDistance) * 100;
+  
+  if (scrollPercentage >= 50) {
+    elem.classList.add('visible');
+  } else {
+    elem.classList.remove('visible');
+  }
+}, 100);
+
+window.addEventListener('scroll', handleScroll);
+```
