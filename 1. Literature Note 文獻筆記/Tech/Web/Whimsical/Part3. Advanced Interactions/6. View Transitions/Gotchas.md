@@ -18,5 +18,8 @@ time: 21:58
 
 #### 第二個解法：
 ```css
-::view-transition-group(my-element) { animation-composition: add; }
+::view-transition-group(my-element) {
+    animation-composition: add;
+}
 ```
+原理採相對偏移而不是絕對座標。
