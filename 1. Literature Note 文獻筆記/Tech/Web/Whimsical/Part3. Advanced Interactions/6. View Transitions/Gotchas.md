@@ -23,3 +23,14 @@ time: 21:58
 }
 ```
 原理採相對偏移而不是絕對座標。
+
+
+## Clipped elements
+
+```css
+view-transition-group: contain;
+```
+
+設定 `view-transition-group: contain`，這個元素的 `::view-transition-group` 會：
+- **不向上繼承**任何祖先 group 的 transform context
+- 自己形成一個獨立的 snapshot group，座標計算只參考自身
