@@ -52,3 +52,16 @@ console.log(checkMotionPreferences()); // `true` or `false`
 https://www.joshwcomeau.com/snippets/react-hooks/use-prefers-reduced-motion/
 
 
+# template
+
+
+```css
+@media (prefers-reduced-motion: reduce) {
+
+}
+```
+```css
+@media (prefers-reduced-motion: no-preference) {
+
+}
+```
