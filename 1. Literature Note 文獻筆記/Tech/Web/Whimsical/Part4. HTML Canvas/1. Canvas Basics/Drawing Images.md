@@ -22,4 +22,4 @@ img.src = "/images/some-image.png";
 
 Image 物件本質上就一個 `<img>` 元素。
 
-- [ ] Image 物件的 src 也可以來自 url, base64, svg。
+Image 物件的 src 也可以來自 url, base64, svg。
