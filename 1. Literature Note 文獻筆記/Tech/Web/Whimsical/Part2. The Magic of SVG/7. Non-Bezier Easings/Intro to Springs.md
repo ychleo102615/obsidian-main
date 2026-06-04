@@ -3,6 +3,7 @@ tags: []
 date: 2026-05-15
 time: 12:21
 tag: 彈簧
+link: https://courses.joshwcomeau.com/wham/02-svg/08.01-intro-to-spring-physics
 ---
 ## Stiffness
 硬度？
