@@ -2,6 +2,7 @@
 tags: []
 date: 2026-05-19
 time: 15:28
+link: https://courses.joshwcomeau.com/wham/03-advanced-interactions/03-mapping-cursor-to-svg
 ---
 
 操作 SVG 會遇到的問題：內外 scale 不一致。
