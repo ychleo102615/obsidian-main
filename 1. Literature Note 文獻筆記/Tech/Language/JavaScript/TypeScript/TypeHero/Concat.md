@@ -18,6 +18,7 @@ Expect<Equal<Concat<[], [1]>, [1]>>,
 
 這個原因是 readonly 的 array 是缺少 push, pop 等方法的定義的，所以從 set 的角度來說，普通的 array 確實 extends readonly array。
 
+---
 
 補充：
 規則一：`extends`（conditional type 判斷）不看 readonly
