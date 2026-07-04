@@ -46,4 +46,4 @@ type ApiRequest<T, R extends Method = 'GET'> = {
 
 **子類別**是一種**實現機制**:透過 `extends`/繼承,由一個既有的 class 派生出新的 class。
 
-**子型別**是一種**關係的判斷結果**:S 的合法值集合,是不是 T 的合法值集合的子集合。TypeScript 用的判斷方式叫**結構化子型別(structural subtyping)**——只要 S 具備 T 要求的所有結構(屬性/方法且型別相容),S 就是 T 的子型別,跟有沒有寫 `extends`、有沒有繼承關係完全無關。
+**子型別**（subtyping(`<:`)）是一種**關係的判斷結果**:S 的合法值集合,是不是 T 的合法值集合的子集合。TypeScript 用的判斷方式叫**結構化子型別(structural subtyping)**——只要 S 具備 T 要求的所有結構(屬性/方法且型別相容),S 就是 T 的子型別,跟有沒有寫 `extends`、有沒有繼承關係完全無關。
