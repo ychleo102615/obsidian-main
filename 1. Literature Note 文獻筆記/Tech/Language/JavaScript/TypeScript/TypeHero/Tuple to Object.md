@@ -22,3 +22,9 @@ type TupleToObject<T extends readonly ExpectedProperty[]> = {
     [K in T[number]]: K ;
 }
 ```
+
+
+---
+
+另外一題相關連的題目：
+https://typehero.dev/challenge/tuple-to-union
